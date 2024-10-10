@@ -1,0 +1,2877 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+ <title>Easy Solar Savings</title>
+ <meta name="description" content="Lower your electric bill up to 80%"/>
+ <meta name="author" content="">
+ <meta name="keywords" content=""/>
+
+
+
+
+ <base href="https://easysolarsaving.com/">
+
+ <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,800" rel="stylesheet">
+ <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+ <link href="css/lp3/style.css" rel="stylesheet">
+	<style>
+ 		.pac-container{top:58px !important; left: 0 !important;background-color:#fff;position:absolute!important;z-index:1000;border-radius:2px;border-top:1px solid #d9d9d9;font-family:Arial,sans-serif;box-shadow:0 2px 6px rgba(0,0,0,0.3);-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+	</style>
+
+ <style>
+ button[disabled] {
+ opacity:0.7;
+ }
+ input.error, select.error {
+ border: 1px solid red;
+ }
+ </style>
+
+  <script>
+ //Add Promise and Symbol support for old browsers
+ if (typeof Promise === "undefined" || typeof Symbol === "undefined") {
+ var script = document.createElement('script');
+ script.type = 'text/javascript';
+ script.src = 'https://cdnjs.cloudflare.com/ajax/libs/core-js/3.6.5/minified.js';
+ document.getElementsByTagName('head')[0].appendChild(script);
+
+ var script = document.createElement('script');
+ script.type = 'text/javascript';
+ script.src = 'https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js';
+ document.getElementsByTagName('head')[0].appendChild(script);
+ }
+
+
+ try {
+ //Add support for Object.values for old browsers
+ if (typeof Object.values === 'undefined') {
+ Object.values = function (obj) {
+ return Object.keys(obj).map(function (e) {
+ return obj[e];
+ });
+ };
+ }
+ if ('NodeList' in window && !NodeList.prototype.forEach) {
+ NodeList.prototype.forEach = function (callback, thisArg) {
+ thisArg = thisArg || window;
+ for (var i = 0; i < this.length; i++) {
+ callback.call(thisArg, this[i], i, this);
+ }
+ };
+ }
+ if (!Array.prototype.find) {
+ Array.prototype.find = function(predicate) {
+ if (this === null) {
+ throw new TypeError('Array.prototype.find called on null or undefined');
+ }
+ if (typeof predicate !== 'function') {
+ throw new TypeError('predicate must be a function');
+ }
+ var list = Object(this);
+ var length = list.length >>> 0;
+ var thisArg = arguments[1];
+ var value;
+
+ for (var i = 0; i < length; i++) {
+ value = list[i];
+ if (predicate.call(thisArg, value, i, list)) {
+ return value;
+ }
+ }
+ return undefined;
+ };
+ }
+ }
+ catch(err) {
+ }
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-K6WH8QB');</script>
+<!-- End Google Tag Manager -->
+
+
+<script>
+ (function(w,d) {
+ w.kwa || (w.kwa = function() {
+ (w.kwa.q = w.kwa.q || []).push(arguments);
+ });
+ se = d.createElement('script'),
+ fs = d.scripts[0];
+ se.src = '//cdn.keywee.co/dist/analytics.min.js';
+ fs.parentNode.insertBefore(se,fs)
+ }(window, document));
+</script>
+
+<script>
+ kwa('initialize',985);
+</script>
+
+<link rel="dns-prefetch" href="platform.logiq.com">
+<link rel="dns-prefetch" href="cookie.logiq.com">
+<link rel="dns-prefetch" href="event.logiq.com">
+<!-- Page View -->
+<script>
+ (function() {
+ var s = document.createElement('script');
+ s.src="https://platform.logiq.com/js/evt.js";
+ s.async = true;
+ s.setAttribute("data-evtGuid", "40480948-dc62-44ad-b653-fd2e7e791a50");
+ s.setAttribute("data-trkGuid", "2bfac1a4-1c1a-46ae-a5d3-75b0eec08860");
+ document.getElementsByTagName('head')[0].appendChild(s);
+ })();
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 339615939 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-339615939"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'AW-339615939');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 586194093 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-586194093"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'AW-586194093');
+</script>
+<!-- End Google site tag -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 10787294212 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10787294212"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'AW-10787294212');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149277210-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'UA-149277210-1');
+</script>
+
+ <!-- start roi Facebook Pixel Code -->
+ <script>
+ !function(f,b,e,v,n,t,s)
+ {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+ n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+ if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+ n.queue=[];t=b.createElement(e);t.async=!0;
+ t.src=v;s=b.getElementsByTagName(e)[0];
+ s.parentNode.insertBefore(t,s)}(window, document,'script',
+ 'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '481766585875396');
+ fbq('track', 'PageView');
+ </script>
+ <noscript><img height="1" width="1" style="display:none"
+ src="https://www.facebook.com/tr?id=481766585875396&ev=PageView&noscript=1"
+ /></noscript>
+
+
+<!-- start Pushnami Code -->
+ <script src="https://api.pushnami.com/scripts/v1/push/5e345c90e74f7d0c8a28921b"></script>
+ <link rel="manifest" href="/manifest.json">
+
+
+</head>
+
+<body>
+ 
+ <script>
+var _rollbarConfig = {
+ accessToken: "0552ca612b8a43d58536030932074033",
+ captureUncaught: true,
+ captureUnhandledRejections: true,
+ payload: {
+ environment: "production"
+ }
+};
+// Rollbar Snippet
+!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.19.4/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+// End Rollbar Snippet
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6WH8QB"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  
+
+
+
+	<header>
+ <div class="container">
+   <nav class="navbar text-center"> 
+   <h1 class="navbar-brand mx-auto"><img src="img/logo.svg" onerror="this.src='img/logo.png'" width="210" height="35" alt="Easy Solar Savings" class="img-fluid"></h1>
+   </nav>
+ </div>
+	</header> 
+
+
+	<main>  
+ 
+ <section class="main text-center text-white">
+ <h1 class="main_heading ">Save BIG on Solar Installation!</h1>
+ <h2 class="main_subheading">Only takes 30 seconds to see if you qualify!</h2>    
+ </section>
+ 
+ <section id="progress">
+ <div class="progress-value">
+ <div class="progress-content">
+ <div class="percent"><span>Start</span><i style="display: none;">%</i></div>
+ <div class="complete"><i class="progress-arow"></i></div>
+ </div>
+ </div>
+ <svg class="circ" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 34 34">
+ <circle cx="16" cy="16" r="15.9155" class="progress-bar_background"></circle>
+ <circle cx="16" cy="16" r="15.9155" class="progress-bar_progress js-progress-bar" style="stroke-dashoffset: 100px;"></circle>
+ </svg>
+ </section>
+	
+
+ <form class="form container-fluid" method="get" id="msform" action="thank-you">
+
+ <input id="leadid_token" name="universal_leadid" type="hidden" value=""/>
+<input type="hidden" id="post_url" value="https://marble.logiq.com/api/lead/easysolarsaving.com">
+<input type="hidden" id="session_id" name="session_id" value="">
+<input type="hidden" id="own_rented" name="own_rented" value="Own">
+<input type="hidden" id="completed" name="completed" value="0">
+<input type="hidden" id="token" name="token" value="">
+
+<input type="hidden" id="aff_id" name="aff_id" value="">
+<input type="hidden" id="transaction_id" name="transaction_id" value="">
+<input type="hidden" id="sub_id" name="sub_id" value="">
+
+<input type="hidden" id="s2" name="s2" value="">
+<input type="hidden" id="s3" name="s3" value="">
+<input type="hidden" id="s4" name="s4" value="">
+<input type="hidden" id="s5" name="s5" value="">
+
+<input type="hidden" id="tcpa_text" name="tcpa_text" value="">
+
+<input type="hidden" id="lotame_profile_data" name="lotame_profile_data" value="">
+
+<input type="hidden" id="time_spent_on_page" name="time_spent_on_page" value="0">
+
+<input type="hidden" id="address_short" value="">
+
+
+ 
+ <fieldset class="field_zip" id="zip-container"><legend hidden="true" style="visibility: hidden; position: absolute;">Zip Code</legend>
+ <h3 class="form_box-question mb-2"><b>Where</b> would this project take place?</h3>
+ <p class="form_box-desc">Enter your zip code and we will help you compare free quotes!</p>
+ 
+ <div class="form-cont mxwdth" >
+ <div class="form-group">
+ <label for="zip" style="display: none; opacity: 0; font-size: 1px; position: absolute; color: transparent;">Zip Code</label>
+ <input id="zip" class="form-control zipcode" type="tel" name="zip_code" pattern="^[0-9]{5}(?:-[0-9]{4})?$" onkeyup="this.value=this.value.replace(/[^\d]/,'')" maxlength="5" placeholder="Enter your zip code" required>
+ 
+ 
+ <label for="city" style="display: none; opacity: 0; font-size: 1px; position: absolute; color: transparent;">city</label>
+ <input type="hidden" id="city" name="city" value="">
+ <label for="state" style="display: none; opacity: 0; font-size: 1px; position: absolute; color: transparent;">state</label>
+ <input type="hidden" id="state" name="state" value="">
+ 
+ <span class="form-error-message">Enter Valid US Zip</span>
+ </div>
+
+ <div class="form-btns">
+ <button class="btn form-btn btn-next"  id="btn-zip"  type="button"  disabled ><span class="btn-text">Continue </span></button>
+ </div>
+ </div>
+ </fieldset>
+
+ 
+ 
+
+ <fieldset data-step="4">
+ <h3 class="form_box-question mb-2">What is your <b>estimated monthly electric&nbsp;bill?</b></h3>
+ <p class="form_box-desc text-center">This helps us determine how much solar power may save you.</p>
+
+ <div class="form-cont mxwdth" >
+ <div class="radio-btn-group radio-next">
+ <div class="row no-gutters">
+
+ <div class="col">
+ <input id="bill01"  type="radio" name="electricity_bill" value="$0-100" >
+ <label for="bill01">$0-<br class="d-block d-md-none">100</label>
+ </div>
+ <div class="col">
+ <input id="bill02"  type="radio" name="electricity_bill" value="$101-200" >
+ <label for="bill02">$101-<br class="d-block d-md-none">200</label>
+ </div>
+ <div class="col">
+ <input id="bill03"  type="radio" name="electricity_bill" value="$201-300" checked>
+ <label for="bill03">$201-<br class="d-block d-md-none">300</label>
+ </div>
+ <div class="col">
+ <input id="bill04"  type="radio" name="electricity_bill" value="$301-400">
+ <label for="bill04">$301-<br class="d-block d-md-none">400</label>
+ </div>
+ <div class="col">
+ <input id="bill05"  type="radio" name="electricity_bill" value="$401+">
+ <label for="bill05">$400+</label>
+ </div>
+ </div>
+ </div>
+ </div>
+  
+ <div class="form-btns text-center">
+ <button class="btn form-btn btn-next" type="button"><span
+ class="btn-text">Continue</span></button>
+ </div>
+ </fieldset>
+
+ 
+ 
+ 
+ <fieldset data-step="5"><legend hidden="true">Roof Shade</legend>
+ <h3 class="form_box-question mb-1"><b>How much shade</b> does your roof get?</h3>
+ <p class="form_box-desc mb-40">Shade helps determine what type of solar panels to use</p>
+
+ <div class="form-cont" >
+ <div class="form-group radio-next">
+ <div class="radio-btn">
+ <input id="rs01" type="radio" name="roof_shade" value="Full Sun" required>
+ <label for="rs01"><span>Full sun most of the day</span></label>
+ </div>
+ <div class="radio-btn">
+ <input id="rs02" type="radio" name="roof_shade" value="Partial sun" required>
+ <label for="rs02"><span>Partially Shaded</span></label>
+ </div>
+ <div class="radio-btn">
+ <input id="rs03" type="radio" name="roof_shade" value="Mostly shaded" required>
+ <label for="rs03"><span>Shaded most of the day</span></label>
+ </div>
+ <div class="radio-btn">
+ <input id="rs04" type="radio" name="roof_shade" value="Not sure" required>
+ <label for="rs04"><span>Not sure</span></label>
+ </div>
+ </div>
+
+ </div>
+  
+ <div class="form-btns text-center">
+ <button class="btn form-btn btn-next" type="button"><span
+ class="btn-text">Continue</span></button>
+ </div>
+ </fieldset>
+ 
+ 
+ 
+
+
+
+ <fieldset data-step="6"><legend hidden="true">Service Provider</legend>
+ <h3 class="form_box-question mb-1">Who is your <b>utility&nbsp;provider?</b></h3>
+ <p class="form_box-desc mb-40">This helps to compare your current bill with how much solar can save you</p>
+
+ <div class="form-cont" >
+ <div class="form-group " id="utility_provider">
+ <label for="provider-select" style="display: none; opacity: 0; font-size: 1px; position: absolute; color: transparent;">Service Provider</label>
+ <select name="current_utility_provider" type="text" id="provider-select" class="form-control custom-select">
+ <option value="Other" selected>Other</option>
+ </select>
+ </div>
+ </div>
+
+
+ <div class="form-btns text-center">
+ <button class="btn form-btn btn-next" type="button"><span
+ class="btn-text">Continue</span></button>
+ </div>
+ </fieldset>
+ 
+ 
+ 
+ 
+ <fieldset><legend hidden="true">address</legend>
+ <h3 class="form_box-question mb-1">What <b>address</b> would this project be located at?</h3>
+ <p class="form_box-desc">This helps us find and compare contractors in your area.</p>
+
+ <div class="form-cont" >
+ <div class="form-group" id="street-add">
+ <label for="address" style="display: none; opacity: 0; font-size: 1px; position: absolute; color: transparent;">street address</label>
+ <input id="address" class="form-control" name="address" type="text" placeholder="Start typing a street address" required data-geocomplete="street address">
+ 
+ <p class="address_loc" id="add-change" style="display: none"><span class="street_span"></span> <span class="city_span" id="city_span"></span>,&nbsp;<span class="state_span"></span> <span class="zip_span"></span></p>
+
+ 
+ <div class="form-error-message">Please enter your street address.</div>
+ </div>
+ </div>
+
+ <div class="form-btns text-center">
+ <button class="btn form-btn btn-next"  type="button" ><span class="btn-text">Continue</span></button>
+ <div class="secure-text">Your information is secure.</div>
+ </div>
+ </fieldset>
+ 
+
+
+ 
+ 
+ <fieldset id="phoneContainer"><legend hidden="true">Phone</legend>
+
+ <center>
+ <h3 class="form_box-question mb-2 last">Your rates are ready to view!</h3>
+ <p class="form_box-desc">Enter your info so we can personalize your results.</p>
+ </center>
+ 
+
+ <div class="form-cont" >
+ 
+ <div class="form-group">
+ <label style="visibility: hidden; position: absolute;" for="first_name">first_name</label>
+ <input id="first_name" pattern="[a-zA-Z]+" minlength="3" class="form-control" type="text" name="first_name" placeholder="First Name" required >
+ <div class="form-error-message">Don&#x27;t forget to tell us your name.</div>
+ </div>
+
+ <div class="form-group">
+ <label style="visibility: hidden; position: absolute;" for="last_name">Last Name</label>
+ <input id="last_name" pattern="[a-zA-Z]+" minlength="3" class="form-control" type="text" name="last_name" placeholder="Last Name" required>
+ <div class="form-error-message">Don&#x27;t forget to tell us your last name.</div>
+ </div>
+ 
+ <div class="form-group">
+ <label for="emailadd" style="display: none; opacity: 0; font-size: 1px; position: absolute; color: transparent;">Email</label>
+ <input id="emailadd" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  class="form-control" type="email" name="email_address" placeholder="Email Address" required>
+ <div class="form-error-message">Please enter your email address.</div>
+ </div>
+	
+ <div class="form-group">
+ <label style="visibility: hidden; position: absolute;" for="homePhone">Phone Number</label>
+ <input id="homePhone" class="form-control" type="tel" name="phone_home" placeholder="Phone Number"  required>
+ <div class="form-error-message">Please enter a valid phone number.</div>
+ </div>
+
+
+ <div class="form-btns text-center">
+ <button class="btn form-btn btn-next text-uppercase"  type="submit" ><span class="btn-text">Continue</span></button>
+ <div class="secure-text mb-15">Your information is secure.</div>
+ </div>
+
+ <center>
+ <img src="img/trusted.svg"  width="110px" alt="Trusted Site">
+ </center>
+ </div>
+
+ <div class="form-cont form-cont mxwdth-8 mt-3 text-center" >
+ <div class="tcpa"><label id="tcpa_label"><input type="hidden" id="leadid_tcpa_disclosure"/>By clicking <span id="tcpa_text">Continue</span> I agree to the <a href="https://easysolarsaving.com/terms" target="_blank">Terms
+ of Service</a> and <a href="https://easysolarsaving.com/privacy" target="_blank">Privacy Policy</a> and authorize up to <a href="https://easysolarsaving.com/providers" target="_blank"> 4 solar
+ energy companies, their contractors and partners</a>&nbsp;to contact me with offers about solar product or service by telephone calls, artificial voice, and pre-recorded/text messages,
+ using an automated telephone technology, to the number I provided above, even if my number is a mobile number or is currently listed on any state, federal or corporate Do Not Call list. I understand that my consent here is not a condition of purchase of any goods or services. Message and data rates may apply.</label>
+<script>
+	document.addEventListener("DOMContentLoaded", function(event) {
+ var tcpa_text = jQuery("#phoneContainer button").text();
+ jQuery("#phoneContainer #tcpa_text").html(tcpa_text);
+	});
+</script>
+ </div>
+ </div>	
+
+ </fieldset>
+
+ 
+ 
+ <div class="container">
+ <div class="partners" >
+ <h4 class="partners_title">Featured Partners In Our Network:</h4>
+ <div class="row no-gutters align-items-center justify-content-center">
+ <a href="#" class="col" style="max-width: 131px; padding-right: 10px;"><img src="img/lp3/v3z/partner-1.png" alt="partner 1" class="img-fluid"></a>
+ <a href="#" class="col"  style="max-width:159px; padding-right: 10px;"><img src="img/lp3/v3z/partner-2.png" alt="partner 2" class="img-fluid"></a>
+ <a href="#" class="col"  style="max-width: 126px;padding-right: 10px;"><img src="img/lp3/v3z/partner-3.png" alt="partner 3" class="img-fluid"></a>
+ </div>
+ </div>
+ </div>
+
+ </form>
+
+	</main>
+ <footer>
+	    	<div  class="container text-center">
+
+ <ul class="list-inline">
+ <li class="list-inline-item">
+ <a href="/contact" >Contact</a>
+ </li>                
+ <li class="list-inline-item">
+ <a href="/privacy">Privacy Policy</a>
+ </li>
+ <li class="list-inline-item">
+ <a href="/terms">Terms of Use</a>
+ </li>
+ <li class="list-inline-item">
+ <a href="https://pushint.com/manage-my-data" target="_blank">Do Not Sell My Information</a>
+ </li>
+ <li id="email-preferences-link" class="list-inline-item"> <a href="/unsubscribe" target="_blank">Email Preferences</a></li>
+ <li class="list-inline-item"> © Copyright Easy Solar Savings. 2022</li>
+ </ul>
+
+
+ <p class="small">This Website is an advertising marketplace for individuals and companies who are seeking consumer referrals for solar products. We are not a solar provider, manufacturer, or installer. The information provided by you to us will be sent to a licensed solar manufacturer or installer in your area. We do not endorse, warrant, or guarantee any service or products of any individual or company you choose to install your solar system. While any information shared with you is believed to be accurate and reliable, the owners/operators of this Website specifically disclaim all warranties, express, implied or statutory, regarding the accuracy, timeliness, and/or completeness of the information provided. The content of any information or service contained thereon (the “Content”) are provided on an "as is" basis. Federal and State tax credits are not available in all locations and not available to all individuals.</p>
+ </div>
+<!--
+<div class="container">
+
+	<p class="copy">Copyright © 2020 <a href="#" class="sitelink">Easy Solar Savings.</a>. All Rights Reserved. </p>
+
+
+	<ul class="list-inline">
+ <li class="list-inline-item">
+ <a href="/contact" >Contact</a>
+ </li>                
+ <li class="list-inline-item">
+ <a href="/privacy">Privacy Policy</a>
+ </li>
+ <li class="list-inline-item">
+ <a href="/terms">Terms of Use</a>
+ </li>
+ <li class="list-inline-item">
+ <a href="https://pushint.com/manage-my-data" target="_blank">Do Not Sell My Information</a>
+ </li>
+ <li class="list-inline-item"> © Copyright Easy Solar Savings. 2020</li>
+	</ul>
+
+	<p class="small"> This Website is an advertising marketplace for individuals and companies who are seeking consumer referrals for solar products. We are not a solar provider, manufacturer, or installer. The information provided by you to us will be sent to a licensed solar manufacturer or installer in your area. We do not endorse, warrant, or guarantee any service or products of any individual or company you choose to install your solar system. While any information shared with you is believed to be accurate and reliable, the owners/operators of this Website specifically disclaim all warranties, express, implied or statutory, regarding the accuracy, timeliness, and/or completeness of the information provided. The content of any information or service contained thereon (the “Content”) are provided on an "as is" basis. Federal and State tax credits are not available in all locations and not available to all individuals.</p>
+</div>-->
+
+
+
+
+ </footer>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap-4.0.0.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+ <script src="js/jquery.validate.min.js"></script>
+ <script>
+ /**
+ * We inject an iFrame with the Leadspedia Click Tracking link for the (Affiliate, Vertical) pair
+ * This tracking link is configured within LP to redirect to submit.pushint.com (or local if set to)
+ * which then stores the lp_click_id with the passed session_id
+ * We take that session_id when the lead gets sold and check if it indeed sold, then fire a conversion with that
+ * lp_click_id
+ *
+ * @param vertical - defined in the submit.pushint.com database e.g. "solar"
+ * @param submit_domain_url
+ */
+
+ function lptrk(vertical) {
+
+ var affId = $.urlParam('aff_id');
+ var s5 = $("#s5").val();
+ var subId = $.urlParam('sub_id');
+ if (!affId) {
+ affId = $.urlParam('AFFID');
+ }
+ if (!s5) {
+ s5 = $.urlParam('S5') || "";
+ }
+
+ var token = $("#token").val();
+
+ var lptrkUrl = 'https://marble.logiq.com/api/getLpTrackingLink?affId=' + affId + '&vertical=' + vertical;
+
+ if(subId) {
+ lptrkUrl += '&sub_id=' + subId;
+ }
+
+ if (typeof affId !== 'undefined' && affId > 0) {
+ $.ajax({
+ 'url': lptrkUrl,
+ 'type': 'GET',
+ async: false,
+ 'success': function (data) {
+ if (data.lpTrackingLink) {
+ var iFrameLink = data.lpTrackingLink + "&session_id=" + data.sessionId + '&s5=' + s5 +'&s4=' + token;
+ document.getElementById('session_id').value = data.sessionId;
+ injectIframe(iFrameLink);
+ }
+ },
+ 'error': function (jqxhr, textStatus, error) {
+ var err = textStatus + ", " + error;
+ Rollbar.critical("Error getting the lp tracking link, error: " + err);
+ }
+ });
+ }
+ }
+</script>
+<script>
+
+ var email_validation_status = 'not-validated';
+
+ //Add Promise and Symbol support for old browsers
+ if (typeof Promise === "undefined" || typeof Symbol === "undefined") {
+ var script = document.createElement('script');
+ script.type = 'text/javascript';
+ script.src = 'https://cdnjs.cloudflare.com/ajax/libs/core-js/3.6.5/minified.js';
+ document.getElementsByTagName('head')[0].appendChild(script);
+
+ var script = document.createElement('script');
+ script.type = 'text/javascript';
+ script.src = 'https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js';
+ document.getElementsByTagName('head')[0].appendChild(script);
+ }
+ //add support for foreach on NodeList
+ if (window.NodeList && !NodeList.prototype.forEach) {
+ NodeList.prototype.forEach = Array.prototype.forEach;
+ }
+
+ function getUrlParameter(sParam) {
+ var sPageURL = window.location.search.substring(1),
+ sURLVariables = sPageURL.split('&'),
+ sParameterName,
+ i;
+
+ for (i = 0; i < sURLVariables.length; i++) {
+ sParameterName = sURLVariables[i].split('=');
+
+ if (sParameterName[0] === sParam) {
+ return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+ }
+ }
+ };
+
+ jQuery.validator.addMethod("emailfull", function (value, element) {
+ return this.optional(element) || /^([a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+(\.[a-z\d!#$%&'*+\-\/=?^_`{|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+)*|"((([ \t]*\r\n)?[ \t]+)?([\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*(([ \t]*\r\n)?[ \t]+)?")@(([a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\d\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.)+([a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF][a-z\d\-._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]*[a-z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])\.?$/i.test(value);
+ }, "Please enter valid email address!");
+
+ jQuery.validator.addMethod("minLengthNoSpaces", function (value, element, len) {
+ if((typeof value !== 'undefined') && (typeof value === 'string' || value instanceof String)) {
+ if(value.includes("@")) {
+ return false;
+ }
+ var noSpacesValue = value.split(' ').join('');
+ if((typeof noSpacesValue !== 'undefined') && (typeof noSpacesValue === 'string' || noSpacesValue instanceof String)) {
+ return noSpacesValue.length >= len;
+ }
+ }
+ return true
+ });
+
+ jQuery.validator.addMethod("phone_number", function (value, element) {
+ var phone_selector = $('input[name="phone_home"]');
+ if (phone_selector.mask !== undefined) {
+ var phone_value_clean = phone_selector.cleanVal();
+ }
+ else {
+ var phone_value_clean = phone_selector.val();
+ }
+ if(phone_value_clean.length < 10) {
+ return false;
+ }
+ if(phone_value_clean.length == 11 && phone_value_clean.charAt(0) != '1') {
+ return false;
+ }
+ return true;
+
+ }, "Please enter a valid phone!");
+
+
+ jQuery.validator.addMethod("fullName", function (value, element, len) {
+ if((typeof value !== 'undefined') && (typeof value === 'string' || value instanceof String)) {
+ if(value.includes("@")) {
+ return false;
+ }
+ var index = value.indexOf(" ");  // Gets the first index where a space occours
+ if(!index) {
+ return false;
+ }
+ var firstName = value.substr(0, index); // Gets the first part
+ var lastName = value.substr(index + 1);  // Gets the text part
+ if(typeof firstName !== 'string' || typeof lastName !== 'string' || firstName.length < 4 || lastName.length < 4) {
+ return false;
+ } else {
+ $("#first_name").val(firstName);
+ $("#last_name").val(lastName);
+ }
+ }
+ return true
+ });
+
+ jQuery.validator.addMethod("hasNumber", function (value, element) {
+ return value.match(".*\\d.*");
+ }, "Your address must include the house/unit number.");
+
+ jQuery.validator.addMethod("notNumber", function (value, element) {
+ return !value.match(".*\\d.*");
+ }, "Number not permitted.");
+
+ jQuery.validator.addMethod("state", function (value, element) {
+ var states = "|AL|AK|AS|AZ|AR|CA|CO|CT|DE|DC|FM|FL|GA|GU|HI|ID|IL|IN|IA|KS|KY|LA|ME|MH|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|MP|OH|OK|OR|PW|PA|PR|RI|SC|SD|TN|TX|UT|VT|VI|VA|WA|WV|WI|WY|";
+ return (value.length == 2 && states.indexOf(value) !== -1)
+ }, "Please enter two letter state name.");
+
+ //timer functions
+ var startTime, endTime;
+
+ function startTimeCounter() {
+ startTime = new Date();
+ }
+
+ function endTimeCounter() {
+ endTime = new Date();
+ var timeDiff = endTime - startTime; //in ms
+ // strip the ms
+ timeDiff /= 1000;
+
+ // return seconds
+ return Math.round(timeDiff);
+ }
+
+ //get the client ip address
+ function getClientIpAddress() {
+ var ipv4 = '';
+ $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+ function(json) {
+ ipv4 = json.ip;
+ $('<input>', {
+ type: 'hidden',
+ id: 'ip_address',
+ name: 'ip_address',
+ value: json.ip
+ }).appendTo('form');
+ }
+ );
+
+ $.getJSON("https://api64.ipify.org?format=jsonp&callback=?",
+ function(json) {
+ if(ipv4 != json.ip) {
+ $('<input>', {
+ type: 'hidden',
+ id: 'ip_address_v6',
+ name: 'ip_address_v6',
+ value: json.ip
+ }).appendTo('form');
+ }
+ }
+ );
+ }
+
+ //generate token
+ function  generateToken() {
+ var token = getUrlParameter('token');
+ if(token) {
+ $("#token").val(token);
+ $("#token").trigger("change");
+
+   lptrk("solar");
+   }
+ else {
+ //$.getJSON("https://httpstat.us/408", function (result) {
+ $.getJSON("https://marble.logiq.com/api/token", function (result) {
+ if (result && result.success) {
+ $("#token").val(result.token);
+ $("#token").trigger("change");
+   lptrk("solar");
+   } else {
+ alert('Server Error! Please reload the page and try again!')
+ }
+ }).fail(function(jqxhr, textStatus, error ) {
+ var err = textStatus + ", " + error;
+ Rollbar.critical("Error while getting the token", {jqXHR: jqxhr, textStatus: textStatus, errorThrown: error});
+ });
+ }
+ }
+
+ //autocomplete data from thank you page
+ function autocompleteForm(){
+ var orig_token = '';
+ if(orig_token) {
+ $.ajax({
+ type: "GET",
+ url: "https://marble.logiq.com/api/lead/data?token="+orig_token,
+ success: function (result) {
+ if(result.success && result.lead) {
+ var lead = result.lead;
+ for (var field_name in lead) {
+ var field_value = lead[field_name];
+ var field = $('[name="' + field_name +'"]');
+ if(field) {
+ var input_type = false;
+ if(field.is('input')) {
+ input_type = field.attr('type');
+ }
+ if(field.is('select')) {
+ input_type = 'select';
+ }
+ //console.log(field_name + ' ' + input_type + ' ' + field_value);
+ if(input_type == 'text' || input_type == 'number' || input_type =='email' || input_type =='tel' || input_type =='select' ) {
+ field.val(field_value);
+ field.trigger('change');
+ }
+ }
+
+ }
+ }
+ }
+ });
+ }
+ }
+
+ //autocomplete form from URL parameters
+ function autocompleteFormFromUrl(){
+  }
+
+ //process url parameters
+ function processUrlParameters() {
+ $("#aff_id").val(getUrlParameter('aff_id'));
+ $("#sub_id").val(getUrlParameter('sub_id'));
+ $("#transaction_id").val(getUrlParameter('transaction_id'));
+ //$("#source").val(getUrlParameter('source'));
+ var s_params = ["s2", "s3", "s4", "s5"];
+
+ //check for both S2 and s2, S3 and s3 etc
+ s_params.forEach(function (item, index) {
+ var param_val = getUrlParameter(item);
+ if (param_val) $("#" + item).val(param_val);
+ else {
+ param_val = getUrlParameter(item.toUpperCase());
+ if (param_val) {
+ $("#" + item).val(param_val);
+ }
+ }
+ });
+
+ if (!$("#aff_id").val()) {
+ $("#aff_id").val(getUrlParameter('AFFID'));
+ }
+ if (!$("#sub_id").val()) {
+ $("#sub_id").val(getUrlParameter('SUBID'));
+ }
+ if (!$("#transaction_id").val()) {
+ $("#transaction_id").val(getUrlParameter('TRANSACTIONID'));
+ }
+
+ var gclid = getUrlParameter('gclid');
+ if(gclid) {
+ $("#msform").append('<input type="hidden" name="gclid" id="gclid" value="' + gclid + '">');
+ }
+
+ var type = getUrlParameter('type');
+ if(type) {
+ $("#msform").append('<input type="hidden" name="type" id="type" value="' + type + '">');
+ }
+
+ }
+
+
+ //set the do not track field
+ function setDoNotTrackField() {
+ if (window.doNotTrack || navigator.doNotTrack || navigator.msDoNotTrack || (typeof window.external !== 'undefined'  && 'msTrackingProtectionEnabled' in window.external) ) {
+
+ // The browser supports Do Not Track!
+
+ if (window.doNotTrack == "1" || navigator.doNotTrack == "yes" || navigator.doNotTrack == "1" || navigator.msDoNotTrack == "1" || (typeof window.external !== 'undefined' && typeof window.external.msTrackingProtectionEnabled !== 'undefined' && window.external.msTrackingProtectionEnabled())) {
+ $("#msform").append('<input type="hidden" name="do_not_track_js_setting" value="1">');
+ } else {
+ }
+ } else {
+ //$("#msform").append('<input type="hidden" name="do_not_track_js_setting" value="0">');
+ }
+ }
+
+ //set the original url field
+ function setOriginalUrlField() {
+ $("#msform").append('<input type="hidden" id="original_url" name="original_url" value="' + window.location.href +'">');
+ }
+
+
+ $(document).on("click", '#email-suggestion', function() {
+ $("input[name='email_address']").val($(this).text());
+ $("input[name='email_address']").css('border-color','green');
+ $("#email-error").remove();
+ return false;
+ });
+
+ $("#msform").validate({
+ rules: {
+ zip_code: {
+ required: true,
+ digits: true,
+ minlength: 5,
+ maxlength: 5
+ },
+ email_address: {
+ required: true,
+ emailfull: true,
+ remote: function () {
+ return {
+ url: "https://marble.logiq.com/api/email-validate/" + $("input[name='email_address']").val() + "/?vertical=",
+ dataType: "json",
+ dataFilter: function (data) {
+ if (data) {
+ try {
+ var json = $.parseJSON(data);
+ if (json.success && json.success == 1) {
+ email_validation_status = 'valid';
+ return true;
+ } else {
+ email_validation_status = 'invalid';
+ return false;
+ }
+ } catch (err) {
+ Rollbar.error("Invalid email validation response", {
+ response: data,
+ error: err
+ });
+ return false;
+ }
+ }
+ },
+ complete: function (data) {
+ if (data) {
+ try {
+ var json = $.parseJSON(data.responseText);
+ if (json && json.success == 0) {
+ setTimeout(function () {
+ if (!$("input[name='email_address']").is(":visible")) {
+ if ($('#msform-slide').length > 0) {
+ //for lp4 pages
+ $('#msform').carousel('prev');
+ } else {
+ //for rest of pages
+ var current_fieldset = $("fieldset:visible");
+ var prev_fieldset = $("input[name='email_address']").closest('fieldset');
+ current_fieldset.hide().promise().done(function () {
+ prev_fieldset.removeClass('fadeOutLeft');
+ prev_fieldset.fadeIn();
+ });
+ }
+ }
+ }, 800);
+ if (json.email_suggestion) {
+ var invalid_email_text = 'Invalid email! Did you mean <a href="#" id="email-suggestion">' + json.email_suggestion + '</a>?';
+ if ($("#email-error").length) {
+ $("#email-error").html(invalid_email_text);
+ } else {
+ $("input[name='email_address']").after('<div id="email-error" class="error" style="display:block">' + invalid_email_text + '</div>')
+ }
+
+ $("input[name='email_address']").removeClass('valid');
+ $("input[name='email_address']").addClass('error');
+ }
+
+ } else {
+ $("#email-error").remove();
+ }
+ } catch (err) {
+ Rollbar.error("Invalid email validation response", {
+ response: data,
+ error: err
+ });
+ return false;
+ }
+ }
+
+ }
+
+ }
+ },
+
+
+ },
+ first_name: {
+ required: true,
+ minLengthNoSpaces: 3,
+ notNumber: true,
+ },
+ last_name: {
+ required: true,
+ minLengthNoSpaces: 3,
+ notNumber: true,
+
+ },
+ full_name: {
+ required: true,
+ fullName: true
+ },
+ electricity_bill: {
+ required: true
+ },
+ roof_shade: {
+ required: true
+ },
+ current_utility_provider: {
+ required: true
+ },
+ address: {
+ required: true,
+ hasNumber: true,
+ minLengthNoSpaces: 5
+ },
+ phone_home: {
+ required: true,
+ phone_number: true
+ },
+ state: {
+ required: true,
+ state: true
+ }
+ },
+
+ messages: {
+ zip_code: 'Please enter valid US zip code.',
+ email_address: 'Please enter your email address.',
+ first_name: "Don't forget to tell us your name.",
+ last_name: "Don't forget to tell us your last name.",
+ full_name: {
+ required: "Don't forget to tell us your name.",
+ fullName:  "Please enter your full name",
+ },
+ address: {
+ required: 'Please enter your address.',
+ hasNumber:  'Your address must include the house/unit number. ',
+ minLengthNoSpaces: 'Your address is too short'
+ },
+ phone_home: 'Please enter your phone number.'
+ },
+
+ errorElement: 'div',
+
+ 
+ onkeyup :false,
+ });
+
+ $(document).ready(function () {
+
+ $.ajaxSetup({
+ //timeout: 20000, //Time in milliseconds
+ cache: false
+ });
+
+ /*$(document).ajaxError(function myErrorHandler(event, xhr, ajaxOptions, thrownError) {
+ Rollbar.error("Ajax error", {urlError: ajaxOptions.url, xhr: xhr, thrownError: thrownError, email: $("input[name='email_address']").val() });
+ });*/
+
+ //start time counter
+ startTimeCounter();
+
+ processUrlParameters();
+ generateToken();
+
+ autocompleteForm();
+ autocompleteFormFromUrl();
+
+ getClientIpAddress();
+
+ $('#tcpa_text').val( $('#leadid_tcpa_disclosure').parent().text() );
+
+ $("#zip").closest("fieldset").find(".btn-next").attr('disabled', 'disabled')
+
+ var phoneSelector = $('input[name="phone_home"]');
+
+ /*if(!$("#source").val()) {
+ $("#source").val(getUrlParameter('SOURCE'));
+ }*/
+
+
+ // $("#S2").val(getUrlParameter('S2'));
+ // $("#S3").val(getUrlParameter('S3'));
+ // $("#S4").val(getUrlParameter('S4'));
+ // $("#S5").val(getUrlParameter('S5'));
+
+ var maskOptions = {
+ onKeyPress: function (cep, e, field, options) {
+ var masks = ['(000)-000-00000', '0(000)-000-0000'];
+ var mask = (cep.length > 14) ? masks[1] : masks[0];
+ $('input[name="phone_home"]').mask(mask, options);
+ },
+ translation: {
+ 'Z': {
+ pattern: /[0-9]/, optional: true
+ }
+ }
+ };
+
+ if (phoneSelector.mask !== undefined) {
+ phoneSelector.mask('(000)-000-00000', maskOptions);
+ }
+
+ //disable copy/paste
+ $('input[type="text"],input[type="tel"],input[type="email"],input[type="number"]').bind('cut copy paste', function (e) {
+ e.preventDefault();
+ });
+
+ $(".btn-next").click(function() {
+ $("#email-preferences-link").hide();
+ });
+
+ $('#zip-container').on('step-redirect', function () {
+ $("#email-preferences-link").hide();
+ });
+
+ setDoNotTrackField();
+ setOriginalUrlField();
+
+ var sendTokenAndTrustedForm = setInterval(function() {
+ if($("#token").val() && $("input[name='xxTrustedFormToken']").val() && typeof Rollbar !== 'undefined') {
+ Rollbar.configure({
+ payload: {
+ token: $("#token").val(),
+ trustedFormToken: $("input[name='xxTrustedFormToken']").val()
+ }
+ });
+ clearInterval(sendTokenAndTrustedForm);
+ }
+ }, 1000);
+
+ });
+
+
+ function is_int(value) {
+ if ((parseFloat(value) == parseInt(value)) && !isNaN(value)) {
+ return true;
+ } else {
+ return false;
+ }
+ }
+
+
+ /**
+ * Injects invisible iframe into page
+ * @param src
+ */
+ function injectIframe(src) {
+ var iframe = document.createElement('iframe');
+ iframe.style.display = 'none';
+ iframe.src = src;
+  document.body.appendChild(iframe);
+ }
+
+ /**
+ * Parses for given url parameter
+ * @param name
+ * @returns {(string | number)|null}
+ */
+ $.urlParam = function (name) {
+ var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+ if (results == null) {
+ return null;
+ } else {
+ return decodeURI(results[1]) || 0;
+ }
+ };
+
+
+</script>
+
+
+<script>
+
+ var in_click = false;
+ var phoneValid = false;
+ var phone_selector = $('input[name="phone_home"]');
+ var form = $("#msform");
+ var url = $("#post_url").val();
+
+ var emailIsLastStep = false;
+ if($("#phoneContainer").find('input[name="email_address"]').length) {
+ emailIsLastStep = true;
+ }
+
+ //lead submit function
+ function submitLead(last_step) {
+
+ if(last_step && emailIsLastStep && email_validation_status != 'valid') {
+ setTimeout(submitLead, 1000, last_step);
+ return false;
+ }
+ //set time spent
+ $("#time_spent_on_page").val(endTimeCounter());
+
+ if(last_step) {
+ $('#completed').val(1);
+ if($("#address_short").val()) {
+ $("#address").val($("#address_short").val());
+ }
+ }
+
+
+ $.ajax({
+ type: "POST",
+ url: "https://marble.logiq.com/api/lead/easysolarsaving.com",
+ data: $("#msform").serialize(), // serializes the form's elements.
+ success: function (data) {
+ if(last_step) {
+ $("#tcpa_text").val('');
+ $("#lotame_profile_data").val('');
+  $("#msform").unbind('submit').submit();
+  }
+ in_click = false;
+
+ },
+ error: function () {
+ if(!last_step) {
+ } else {
+ $("#lotame_profile_data").val('');
+ $("#tcpa_text").val('');
+
+ $("#msform").unbind('submit').submit();
+ }
+
+ in_click = false;
+ }
+ });
+ }
+
+ //show phone error
+ function displayPhoneError(current_fieldset, prev_fieldset, phone_selector) {
+ current_fieldset.hide().promise().done(function () {
+ prev_fieldset.fadeIn().promise().done(function () {
+ $('.phone-valid-error').show();
+ phone_selector.attr('style', 'border: 1px solid red');
+ prev_fieldset.removeClass('fadeOutLeft');
+ });
+ });
+ }
+
+
+ $(document).ready(function () {
+
+ $('.btn-next').click(function (e) {
+
+ //check if form is valid
+ if (!$("#msform").valid())
+ return;
+
+ //check for duplicate clicks
+ if (in_click)
+ return;
+
+ if ($('input[name="homeowner"]').is(":checked")) {
+ $("#own_rented").val("Own");
+ } else {
+ $("#own_rented").val("Rented");
+ }
+
+ var prev_fieldset = $(this).parents('fieldset');
+ var current_fieldset = prev_fieldset.next('fieldset');
+ var last_step = false;
+
+ if($(this).attr('type') === 'submit') {
+ last_step = true;
+ }
+
+ //check if phone is valid, submit after
+
+ if (prev_fieldset.find('input[name="phone_home"]').length) {
+ if (phone_selector.mask !== undefined) {
+ var phone_value_clean = phone_selector.cleanVal();
+ }
+ else {
+ var phone_value_clean = phone_selector.val();
+ }
+
+ var phone_validation_url = "https://marble.logiq.com/api/phone-validate/" + phone_value_clean + "?token=" + $("#token").val();
+ if($("#aff_id").val()) {
+ phone_validation_url += "&aff_id=" + $("#aff_id").val();
+ }
+ if($("#sub_id").val()) {
+ phone_validation_url += "&sub_id=" + $("#sub_id").val();
+ }
+
+ $.getJSON(phone_validation_url , function (data) {
+ if (data.success == 1) {
+ phoneValid = true;
+ $('.phone-valid-error').hide();
+ phone_selector.removeAttr('style');
+ if(!in_click) {
+ submitLead(last_step);
+ }
+
+ } else {
+ phoneValid = false;
+ displayPhoneError(current_fieldset, prev_fieldset, phone_selector);
+ return false;
+ }
+ }).fail(function(jqxhr, textStatus, error ) {
+
+ phoneValid = false;
+ displayPhoneError(current_fieldset, prev_fieldset, phone_selector);
+ var err = textStatus + ", " + error;
+ Rollbar.critical("Error while validating phone, error: " + err);
+ return false;
+ });
+ }
+ else {
+ if(!in_click) {
+ submitLead(last_step);
+ }
+
+ }
+
+ });
+ });
+
+ $("#msform").submit(function (e) {
+ e.preventDefault();
+ //$('button[type="submit"]').trigger('click');
+ return false;
+ });
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.4/mobile-detect.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.4/mobile-detect.min.js"></script>
+<script>
+
+
+ var rates_redirect = false;
+
+ if (typeof MobileDetect !== 'undefined') {
+ var md = new MobileDetect(window.navigator.userAgent);
+
+ if (!md.mobile() && !md.tablet()) {
+ rates_redirect = true;
+ }
+ }
+
+  rates_redirect = false;
+ 
+ 
+ var zipcode = getUrlParameter('zip_code');
+ if (!isNaN(zipcode) && zipcode == '') {
+ rates_redirect = false;
+ }
+
+ function zipValidationSuccess(button_click) {
+ if (rates_redirect && button_click) {
+
+ if (($("#zip").val().length != 5) || (!is_int($("#zip").val()))) {
+ $(".zip-error").show();
+ return;
+ }
+
+ var el = $('#zip');
+ var current_url = window.location.href;
+ var final_url = '';
+
+ if (current_url.includes('?')) {
+ if (current_url.includes('#')) {
+ var anchor_position = current_url.indexOf("#");
+ final_url = current_url.substr(0, anchor_position) + '&zip_code=' + el.val() + "&token=" + $("#token").val() + current_url.substr(anchor_position);
+ } else {
+ final_url = current_url + '&zip_code=' + el.val() + "&token=" + $("#token").val();
+ }
+ } else {
+ final_url = current_url + '?zip_code=' + el.val() + "&token=" + $("#token").val();
+ }
+
+ var new_window = window.open(final_url);
+ if (new_window) {
+ new_window.focus();
+ $(window).attr('location', '/rates/?zip_code=' + el.val() + '&' + window.location.search.substr(1));
+ }
+ } else {
+
+ $("#zip").blur();
+ $('#btnzip').removeAttr('disabled');
+ $('#btn-zip').removeAttr('disabled');
+
+ populateCityAndState();
+ }
+
+ $('#zip-container').trigger('zip-validated');
+
+ }
+
+ var zipcode = getUrlParameter('zip_code');
+
+ if (rates_redirect && (!isNaN(zipcode) && zipcode !== '')) {
+ $('#zip-container').trigger('step-redirect');
+ $('#zip-container').hide();
+ $('#zip-container').next().show();
+ }
+
+ function zipValidationError() {
+ $(".zip-error").show();
+ $('#btnzip').attr('disabled', 'disabled');
+ $('#btn-zip').attr('disabled', 'disabled');
+ }
+
+ function zipValidate(button_click) {
+ // Cache
+ var el = $('#zip');
+ // Did they type five integers?
+ if ((el.val().length == 5) && (is_int(el.val())) && !zip_inclick) {
+ zip_inclick = true;
+ // Call Ziptastic for information
+
+ zipValidationSuccess(button_click);
+ zip_inclick = false;
+ } else if (el.val().length < 5) {
+ $(".zip-error").hide();
+ }
+ }
+
+ function populateCityAndState() {
+
+ if(!$("#city").val()) {
+ $.ajax({
+ url: "https://marble.logiq.com/api/zip-validate/" + $("#zip").val() + "?token=" + $("#token").val(),
+ cache: false,
+ dataType: "json",
+ type: "GET",
+ timeout: 7000,
+ success: function (result, success) {
+ if (result.success) {
+ $("#city").val(result.city);
+ $("#state").val(result.state);
+ $('#city2').text(result.city);
+ $('#state2').text(result.state);
+
+ if($('#provider-select').length) {
+ var states = $("#state").val();
+ var providerList ={
+ "AK" :
+ [
+ {"providerName" : "Alaska Electric Light & Power"},
+ {"providerName" : "Chugach Electric Association"},
+ {"providerName" : "Copper Valley Electric Association"},
+ {"providerName" : "Golden Valley Electric Association"},
+ {"providerName" : "Kodlak Electric Association"},
+ {"providerName" : "Municipal Light & Power"},
+ {"providerName" : "Other"}
+ ],
+ "AL" :
+ [
+ {"providerName" : "Alabama Municipal Electric Authority"},
+ {"providerName" : "Alabama Power"},
+ {"providerName" : "PowerSouth"},
+ {"providerName" : "Tennessee Valley Authority"},
+ {"providerName" : "Wiregrass Electric Cooperative"},
+ {"providerName" : "Other"}
+ ],
+ "AR" :
+ [
+ {"providerName" : "Southwestern Electric Power Company"},
+ {"providerName" : "Entergy Arkansas, Inc."},
+ {"providerName" : "Other"}
+
+ ],
+ "AZ" :
+ [
+ {"providerName" : "Arizona Public Service"},
+ {"providerName" : "Salt River Project"},
+ {"providerName" : "Tucson Electric Power"},
+ {"providerName" : "UniSource Energy Services"}
+ ],
+ "CA" :
+ [
+ {"providerName" : "Alameda Municipal Power"},
+ {"providerName" : "Anaheim Public Utilities"},
+ {"providerName" : "Azusa Light & Water"},
+ {"providerName" : "Burbank Water & Power"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "East Bay Municipal Utility District"},
+ {"providerName" : "Glendale Public Service Department"},
+ {"providerName" : "Gridley Municipal Utilities"},
+ {"providerName" : "Healdsburg Municipal Electric Department"},
+ {"providerName" : "Imperial Irrigation District"},
+ {"providerName" : "Los Angeles Department of Water and Power"},
+ {"providerName" : "Nevada Irrigation District"},
+ {"providerName" : "Pacific Gas and Electric"},
+ {"providerName" : "Pasadena Water & Power"},
+ {"providerName" : "Pacific Power"},
+ {"providerName" : "Riverside Public Utilities"},
+ {"providerName" : "Sacramento Municipal Utility District"},
+ {"providerName" : "San Diego Gas & Electric"},
+ {"providerName" : "Santa Clara Electric Department"},
+ {"providerName" : "Sierra-Pacific Power"},
+ {"providerName" : "Southern California Edison"},
+ {"providerName" : "Southern California Public Power Authority"},
+ {"providerName" : "TID Water & Power - Turlock Irrigation District"},
+ {"providerName" : "Other"}
+
+ ],
+ "CO" :
+ [
+ {"providerName" : "Public Service Company of Colorado"},
+ {"providerName" : "Colorado Springs Utilities"},
+ {"providerName" : "Platte River Power Authority"},
+ {"providerName" : "United Power, Inc."},
+ {"providerName" : "Other"}
+
+ ],
+ "CT" :
+ [
+ {"providerName" : "AVANGRID"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Eversource Energy"},
+ {"providerName" : "Northeast Utilities"},
+ {"providerName" : "Other"}
+
+ ],
+ "DE" :
+ [
+ {"providerName" : "Ambit Energy"},
+ {"providerName" : "City of Dover Electric Department"},
+ {"providerName" : "City of Milford Electric Department"},
+ {"providerName" : "City of Newark Electric Department"},
+ {"providerName" : "City of Seaford Electric Department"},
+ {"providerName" : "Delaware Electric Cooperative"},
+ {"providerName" : "Delaware Municipal Electric Corporation"},
+ {"providerName" : "Delmarva Power"},
+ {"providerName" : "Lewes Board of Public Works"},
+ {"providerName" : "Municipal Services Commission of the City of New Castle"},
+ {"providerName" : "Town of Clayton Electric Department"},
+ {"providerName" : "Town of Middletown Electric Department"},
+ {"providerName" : "Town of Smyrna Electric Department"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "DC" :
+ [
+ {"providerName" : "PEPCO"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Other"}
+ ],
+ "FL" :
+ [
+ {"providerName" : "Beaches Energy Services"},
+ {"providerName" : "Central Florida Electric Cooperative"},
+ {"providerName" : "Choctawhatchee Electric Cooperative"},
+ {"providerName" : "City of Alachua Public Services Department"},
+ {"providerName" : "City of Bartow Electric Department"},
+ {"providerName" : "City of Blountstown Electric Department"},
+ {"providerName" : "City of Bushnell Utilities Department"},
+ {"providerName" : "City of Chattahoochee Electric Department"},
+ {"providerName" : "City of Fort Meade Utilities Department"},
+ {"providerName" : "City of Green Cove Springs Utilities Department"},
+ {"providerName" : "City of Lake Worth Utilities Department"},
+ {"providerName" : "City of Moore Haven Utilities Department"},
+ {"providerName" : "City of Mount Dora Electric Utility"},
+ {"providerName" : "City of New Smyrna Beach Utilities Commission"},
+ {"providerName" : "City of Newberry Electric Utility"},
+ {"providerName" : "City of Quincy Utilities Department"},
+ {"providerName" : "City of Starke Utilities Department"},
+ {"providerName" : "City of Tallahassee Utilities"},
+ {"providerName" : "City of Vero Beach Electric Utilities"},
+ {"providerName" : "City of Wachula Utilities"},
+ {"providerName" : "City of Williston Utilities Department"},
+ {"providerName" : "City of Winter Park Electric Utility Department"},
+ {"providerName" : "Clay Electric Cooperative"},
+ {"providerName" : "Clewiston Utilities"},
+ {"providerName" : "Duke Energy Florida, a part of Duke Energy"},
+ {"providerName" : "Escambia River Electric Cooperative"},
+ {"providerName" : "Florida Keys Electric Cooperative"},
+ {"providerName" : "Florida Municipal Power Agency"},
+ {"providerName" : "Florida Power & Light, a part of NextEra Energy"},
+ {"providerName" : "Florida Public Utilities, a part of Chesapeake Utilities"},
+ {"providerName" : "Fort Pierce Utilities Authority"},
+ {"providerName" : "Gainesville Regional Utilities"},
+ {"providerName" : "Glades Electric Cooperative"},
+ {"providerName" : "Gulf Coast Electric Cooperative"},
+ {"providerName" : "Gulf Power Company, a part of NextEra Energy"},
+ {"providerName" : "Homestead Public Services"},
+ {"providerName" : "JEA"},
+ {"providerName" : "Keys Energy Services"},
+ {"providerName" : "Kissimmee Utility Authority"},
+ {"providerName" : "Lakeland Electric"},
+ {"providerName" : "Lake Worth Utilities"},
+ {"providerName" : "Lee County Electric Cooperative"},
+ {"providerName" : "Leesburg Electric Department"},
+ {"providerName" : "Ocala Electric Utility"},
+ {"providerName" : "Okefenoke Rural Electric Membership Corporation"},
+ {"providerName" : "Orlando Utilities Commission"},
+ {"providerName" : "Palm Peach"},
+ {"providerName" : "Peace River Electric Cooperative"},
+ {"providerName" : "Progress Energy Florida"},
+ {"providerName" : "PowerSouth Energy Cooperative"},
+ {"providerName" : "Reedy Creek Energy Services"},
+ {"providerName" : "St. Cloud Utilities"},
+ {"providerName" : "Seminole Electric Cooperative"},
+ {"providerName" : "Sumter Electric Cooperative"},
+ {"providerName" : "Suwannee Valley Electric Cooperative"},
+ {"providerName" : "Talquin Electric Cooperative"},
+ {"providerName" : "TECO Energy, a part of Emera"},
+ {"providerName" : "Town of Havana Utilities"},
+ {"providerName" : "Tri-County Electric Cooperative"},
+ {"providerName" : "West Florida Electric Cooperative"},
+ {"providerName" : "Withlacoochee River Electric Cooperative"},
+ {"providerName" : "Other"}
+
+ ],
+ "GA" :
+ [
+ {"providerName" : "Georgia Power"},
+ {"providerName" : "Municipal Electric Authority of Georgia (MEAG Power)"},
+ {"providerName" : "Oglethorpe Power"},
+ {"providerName" : "Tennessee Valley Authority"},
+ {"providerName" : "Altamaha EMC"},
+ {"providerName" : "Amicalola EMC"},
+ {"providerName" : "Blue Ridge Mountain EMC"},
+ {"providerName" : "Canoochee EMC"},
+ {"providerName" : "Carroll EMC"},
+ {"providerName" : "Central Georgia EMC"},
+ {"providerName" : "Coastal Electric Cooperative"},
+ {"providerName" : "Cobb EMC"},
+ {"providerName" : "Colquitt EMC"},
+ {"providerName" : "Coweta-Fayette EMC"},
+ {"providerName" : "Diverse Power Inc."},
+ {"providerName" : "Diverse Power Inc. - Pataula District"},
+ {"providerName" : "Excelsior EMC"},
+ {"providerName" : "Flint Energies"},
+ {"providerName" : "Grady EMC"},
+ {"providerName" : "GreyStone Power Corp."},
+ {"providerName" : "Habersham EMC"},
+ {"providerName" : "Hart EMC"},
+ {"providerName" : "Irwin EMC"},
+ {"providerName" : "Jackson EMC"},
+ {"providerName" : "Jefferson Energy Cooperative"},
+ {"providerName" : "Little Ocmulgee EMC"},
+ {"providerName" : "Marietta Power"},
+ {"providerName" : "Middle Georgia EMC"},
+ {"providerName" : "Mitchell EMC"},
+ {"providerName" : "North Georgia EMC"},
+ {"providerName" : "Ocmulgee EMC"},
+ {"providerName" : "Oconee EMC"},
+ {"providerName" : "Okefenoke REMC"},
+ {"providerName" : "Planters EMC"},
+ {"providerName" : "Rayle EMC"},
+ {"providerName" : "Satilla REMC"},
+ {"providerName" : "Sawnee EMC"},
+ {"providerName" : "Slash Pine EMC"},
+ {"providerName" : "Snapping Shoals EMC"},
+ {"providerName" : "Southern Rivers Energy"},
+ {"providerName" : "Sumter EMC"},
+ {"providerName" : "Three Notch EMC"},
+ {"providerName" : "Tri-County EMC"},
+ {"providerName" : "Tri-State EMC"},
+ {"providerName" : "Upson EMC"},
+ {"providerName" : "Walton EMC"},
+ {"providerName" : "Washington EMC"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "HI" :
+ [
+ {"providerName" : "Hawaiian Electric Company (HECO)"},
+ {"providerName" : "Hawaiian Electric Light Company (HELCO)"},
+ {"providerName" : "Kauaʻi Island Utility Cooperative (KIUC)"},
+ {"providerName" : "Maui Electric Company (MECO)"},
+ {"providerName" : "Other"}
+
+ ],
+ "ID" :
+ [
+ {"providerName" : "Avista"},
+ {"providerName" : "Clearwater Power"},
+ {"providerName" : "IDACORP (Idaho Power)"},
+ {"providerName" : "PacifiCorp (Rocky Mountain Power)"},
+ {"providerName" : "Other"}
+
+ ],
+ "IL" :
+ [
+ {"providerName" : "Ambit Energy"},
+ {"providerName" : "Ameren"},
+ {"providerName" : "Champion Energy"},
+ {"providerName" : "City Water, Light & Power (Springfield, Illinois)"},
+ {"providerName" : "ComEd"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "IN" :
+ [
+ {"providerName" : "American Electric Power (Indiana Michigan Power)"},
+ {"providerName" : "Cinergy Corporation"},
+ {"providerName" : "Duke Energy"},
+ {"providerName" : "Indiana Municipal Power Agency"},
+ {"providerName" : "Indianapolis Power & Light"},
+ {"providerName" : "NiSource"},
+ {"providerName" : "Northern Indiana Public Service Company"},
+ {"providerName" : "Vectren (Southern Indiana Gas & Electric Company)"},
+ {"providerName" : "Other"}
+
+ ],
+ "IA" :
+ [
+ {"providerName" : "Interstate Power and Light Company"},
+ {"providerName" : "MidAmerican Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "KS" :
+ [
+ {"providerName" : "Kansas City Board of Public Utilities"},
+ {"providerName" : "Kansas City Power and Light Company"},
+ {"providerName" : "Westar Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "KY" :
+ [
+ {"providerName" : "American Electric Power"},
+ {"providerName" : "Cinergy Corporation"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Duke Energy"},
+ {"providerName" : "Kentucky Utilities"},
+ {"providerName" : "Louisville Gas & Electric"},
+ {"providerName" : "Owensboro Municipal Utilities"},
+ {"providerName" : "Tennessee Valley Authority"},
+ {"providerName" : "Other"}
+
+ ],
+ "LA" :
+ [
+ {"providerName" : "CLECO"},
+ {"providerName" : "Entergy"},
+ {"providerName" : "SWEPCO"},
+ {"providerName" : "Other"}
+
+ ],
+ "ME" :
+ [
+ {"providerName" : "AVANGRID (Central Maine Power)"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Emera (Bangor Hydro Electric)"},
+ {"providerName" : "Other"}
+
+ ],
+ "MD" :
+ [
+ {"providerName" : "A&N Electric Cooperative"},
+ {"providerName" : "Agway Energy Services"},
+ {"providerName" : "Allegheny Electric Cooperative"},
+ {"providerName" : "Ambit Energy"},
+ {"providerName" : "Baltimore Gas and Electric"},
+ {"providerName" : "Berlin Electric Utility Department"},
+ {"providerName" : "Champion Energy"},
+ {"providerName" : "Choptank Electric Cooperative"},
+ {"providerName" : "Conectiv"},
+ {"providerName" : "Delmarva Power"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Easton Utilities"},
+ {"providerName" : "FirstEnergy (Potomac Edison)"},
+ {"providerName" : "Hagerstown Light Department"},
+ {"providerName" : "Just Energy"},
+ {"providerName" : "Southern Maryland Electric Cooperative (SMECO)"},
+ {"providerName" : "Town of Thurmont Municipal Light Company"},
+ {"providerName" : "Town of Williamsport Utilities"},
+ {"providerName" : "Other"}
+
+ ],
+ "MA" :
+ [
+ {"providerName" : "Ashburnham Municipal Light"},
+ {"providerName" : "Berkshire Company (WMECO)"},
+ {"providerName" : "Braintree Electric Light Department"},
+ {"providerName" : "Boylston Electric Light Department"},
+ {"providerName" : "Chester Municipal Electric Light"},
+ {"providerName" : "Chicopee Electric Light Department"},
+ {"providerName" : "Concord Municipal Light Plant"},
+ {"providerName" : "Danvers Electric Department"},
+ {"providerName" : "Eversource Energy (NSTAR, Western Massachusetts Electric)"},
+ {"providerName" : "Georgetown Electric Department"},
+ {"providerName" : "Gosnold Municipal Electric Plant"},
+ {"providerName" : "Groton Electric Department"},
+ {"providerName" : "Groveland Light Department"},
+ {"providerName" : "Hingham Municipal Light Department"},
+ {"providerName" : "Holden Municipal Light Department"},
+ {"providerName" : "Holyoke Gas and Electric"},
+ {"providerName" : "Hudson Light and Water Department"},
+ {"providerName" : "Hull Electric Light Department"},
+ {"providerName" : "Ipswich Electric Light Department"},
+ {"providerName" : "Littleton Electric Light and Water Department"},
+ {"providerName" : "Marblehead Municipal Light Department"},
+ {"providerName" : "Mansfield Municipal Light Department"},
+ {"providerName" : "Merrimac Light and Water Department"},
+ {"providerName" : "Middleboro Municipal Gas and Electric Department"},
+ {"providerName" : "Middleton Municipal Light Department"},
+ {"providerName" : "National Grid (Massachusetts Electric, Nantucket Electric)"},
+ {"providerName" : "North Attleboro Electric Department"},
+ {"providerName" : "Northeast Utilities"},
+ {"providerName" : "Norwood Electric Light Department"},
+ {"providerName" : "NSTAR"},
+ {"providerName" : "Paxton Municipal Light Department"},
+ {"providerName" : "Peabody Municipal Light Plant"},
+ {"providerName" : "Princeton Electric Light Department"},
+ {"providerName" : "Reading Municipal Light Department"},
+ {"providerName" : "Rowley Electric Light Department"},
+ {"providerName" : "Russell Municipal Light Department"},
+ {"providerName" : "Shrewsbury Electric Light Department"},
+ {"providerName" : "South Hadley Electric Light Department"},
+ {"providerName" : "Sterling Electric Light Department"},
+ {"providerName" : "Taunton Municipal Light Plant"},
+ {"providerName" : "Templeton Municipal Light Company"},
+ {"providerName" : "Unitil Corporation"},
+ {"providerName" : "Wakefield Municipal Gas and Light Department"},
+ {"providerName" : "Wellesley Municipal Light Plant"},
+ {"providerName" : "West Boylston Municipal Lighting"},
+ {"providerName" : "Westfield Gas and Electric Department"},
+ {"providerName" : "PTI Electric Department"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "MI" :
+ [
+ {"providerName" : "Alger Delta Electric Cooperative"},
+ {"providerName" : "Alpena Power Company"},
+ {"providerName" : "American Electric Power (Indiana Michigan Power)"},
+ {"providerName" : "Cherryland Electric Cooperative"},
+ {"providerName" : "Cloverland Electric Cooperative"},
+ {"providerName" : "Consumers Energy"},
+ {"providerName" : "DTE Energy (DTE Energy Electric Company)"},
+ {"providerName" : "Great Lakes Energy Cooperative"},
+ {"providerName" : "Holland Board of Public Works"},
+ {"providerName" : "Homeworks Tri-County Electric Cooperative"},
+ {"providerName" : "Lansing Board of Water & Light"},
+ {"providerName" : "Lowell Light and Power"},
+ {"providerName" : "Midwest Energy & Communications (Cooperative)"},
+ {"providerName" : "Ontonagon County REA (Cooperative)"},
+ {"providerName" : "Presque Isle Electric & Gas Cooperative"},
+ {"providerName" : "Thumb Electric Cooperative"},
+ {"providerName" : "Upper Peninsula Power Company"},
+ {"providerName" : "We Energies"},
+ {"providerName" : "Wyandotte Municipal Services"},
+ {"providerName" : "Other"}
+
+ ],
+ "MN" :
+ [
+ {"providerName" : "Basin Electric Power Cooperative"},
+ {"providerName" : "Dairyland Power Coop"},
+ {"providerName" : "East River Electric Power Co-op"},
+ {"providerName" : "Freeborn-Mower Co-op Services"},
+ {"providerName" : "Great River Energy, and its 28 member cooperatives"},
+ {"providerName" : "Hutchinson Utilities Commission"},
+ {"providerName" : "Interstate Power and Light Company"},
+ {"providerName" : "L&O Power Co-op"},
+ {"providerName" : "Marshall Municipal Utilities"},
+ {"providerName" : "Minnkota Power Cooperative, and its 11 member cooperatives"},
+ {"providerName" : "Minnesota Power"},
+ {"providerName" : "Missouri River Energy"},
+ {"providerName" : "Northern States Power Company, a subsidiary of Xcel Energy"},
+ {"providerName" : "People's Co-op Tri-County Electric"},
+ {"providerName" : "Otter Tail Power Company"},
+ {"providerName" : "Rochester Public Utilities Commission"},
+ {"providerName" : "Southern Minnesota Municipal Power Agency"},
+ {"providerName" : "Willmar Municipal Utilities"},
+ {"providerName" : "Xcel Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "MS" :
+ [
+ {"providerName" : "Entergy Mississippi"},
+ {"providerName" : "Magnolia Electric Power"},
+ {"providerName" : "Mississippi Power"},
+ {"providerName" : "Cooperative Energy"},
+ {"providerName" : "Tennessee Valley Authority"},
+ {"providerName" : "Other"}
+
+ ],
+ "MO" :
+ [
+ {"providerName" : "Ameren"},
+ {"providerName" : "Aquila"},
+ {"providerName" : "City Utilities of Springfield"},
+ {"providerName" : "Empire District Electric Company"},
+ {"providerName" : "Independence Power and Light"},
+ {"providerName" : "Kansas City Power and Light Company"},
+ {"providerName" : "Other"}
+
+ ],
+ "MT" :
+ [
+ {"providerName" : "Central Montana Electric Power Cooperative"},
+ {"providerName" : "Montana-Dakota Utilities (MDU)"},
+ {"providerName" : "Montana Electric Cooperatives' Association"},
+ {"providerName" : "Northwestern Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "NE" :
+ [
+ {"providerName" : "Nebraska Public Power District"},
+ {"providerName" : "Omaha Public Power District"},
+ {"providerName" : "Lincoln Electric System"},
+ {"providerName" : "Other"}
+
+ ],
+ "NV" :
+ [
+ {"providerName" : "NV Energy (Nevada Power)"},
+ {"providerName" : "Sierra Pacific Power"},
+ {"providerName" : "Other"}
+ ],
+ "NH" :
+ [
+ {"providerName" : "Eversource Energy"},
+ {"providerName" : "Liberty Utilities"},
+ {"providerName" : "New Hampshire Electric Cooperative"},
+ {"providerName" : "Northeast Utilities"},
+ {"providerName" : "National Grid"},
+ {"providerName" : "Unitil Corporation"},
+ {"providerName" : "Other"}
+
+ ],
+ "NJ" :
+ [
+ {"providerName" : "GANDU Electric,heavy electric"},
+ {"providerName" : "Atlantic City Electric"},
+ {"providerName" : "Borough of Madison Electric Utility"},
+ {"providerName" : "Borough of Milltown Electric Department"},
+ {"providerName" : "Borough of Park Ridge Electric Department"},
+ {"providerName" : "Borough of Seaside Heights Electric Utility"},
+ {"providerName" : "Borough of South River Electric Department"},
+ {"providerName" : "Butler Power and Light"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "FirstEnergy"},
+ {"providerName" : "Lavallette Electric Department"},
+ {"providerName" : "Northeast Utilities"},
+ {"providerName" : "Pemberton Borough Electric Department"},
+ {"providerName" : "Public Service Electric and Gas Company (PSE&G)"},
+ {"providerName" : "Rockland Electric"},
+ {"providerName" : "South Jersey Industries"},
+ {"providerName" : "Sussex Rural Electric Cooperative"},
+ {"providerName" : "Vineland Municipal Electric Utility"},
+ {"providerName" : "Other"}
+
+ ],
+ "NM" :
+ [
+ {"providerName" : "El Paso Electric"},
+ {"providerName" : "Public Service Company of New Mexico"},
+ {"providerName" : "Southwestern Public Service Company"},
+ {"providerName" : "Other"}
+
+ ],
+ "NY" :
+ [
+ {"providerName" : "Central Hudson Gas & Elec Corp"},
+ {"providerName" : "Consolidated Edison Co-NY Inc"},
+ {"providerName" : "Fishers Island Utility Co Inc"},
+ {"providerName" : "Jamestown Board of Public Util"},
+ {"providerName" : "Long Island Power Authority"},
+ {"providerName" : "New York State Elec & Gas Corp"},
+ {"providerName" : "Niagara Mohawk Power Corp."},
+ {"providerName" : "Orange & Rockland Utils Inc"},
+ {"providerName" : "Pennsylvania Electric Co"},
+ {"providerName" : "Rochester Gas & Electric Corp"},
+ {"providerName" : "Steuben Rural Elec Coop, Inc"},
+ {"providerName" : "Village of Freeport - (NY)"},
+ {"providerName" : "Village of Rockville Centre - (NY)"},
+ {"providerName" : "Village of Rouses Point - (NY)"},
+ {"providerName" : "Other"}
+
+ ],
+ "NC" :
+ [
+ {"providerName" : "Albemarle Electric Membership Corporation"},
+ {"providerName" : "Blue Ridge Energy"},
+ {"providerName" : "Brunswick Electric Membership Corporation"},
+ {"providerName" : "Cape Hatteras Electric Cooperative"},
+ {"providerName" : "Carteret-Craven Electric Cooperative"},
+ {"providerName" : "Central Electric Membership Corporation"},
+ {"providerName" : "City of Concord Electric Departmemt"},
+ {"providerName" : "Dominion North Carolina Power"},
+ {"providerName" : "Duke Energy"},
+ {"providerName" : "Edgecombe-Martin County Electric Membership Corporation"},
+ {"providerName" : "EnergyUnited"},
+ {"providerName" : "Four County Electric Membership Corporation"},
+ {"providerName" : "French Broad Electric Membership Corporation"},
+ {"providerName" : "Halifax Electric Membership Corporation"},
+ {"providerName" : "Haywood Electric Membership Corporation"},
+ {"providerName" : "Jones-Onslow Electric Membership Corporation"},
+ {"providerName" : "Lumbee River Electric Membership Corporation"},
+ {"providerName" : "North Carolina Electric Membership Corporation"},
+ {"providerName" : "Pee Dee Electric Membership Corporation"},
+ {"providerName" : "Piedmont Electric Membership Corporation"},
+ {"providerName" : "Pitt & Greene Electric Membership Corporation"},
+ {"providerName" : "Randolph Electric Membership Corporation"},
+ {"providerName" : "Roanoke Electric Cooperative"},
+ {"providerName" : "Rutherford Electric Membership Corporation"},
+ {"providerName" : "South River Electric Membership Corporation"},
+ {"providerName" : "Surry-Yadkin Electric Membership Corporation"},
+ {"providerName" : "Tennessee Valley Authority"},
+ {"providerName" : "Tideland Electric Membership Corporation"},
+ {"providerName" : "Tri-County Electric Membership Corporation"},
+ {"providerName" : "Union Power Cooperative"},
+ {"providerName" : "Wake Electric Membership Corporation"},
+ {"providerName" : "Other"}
+ ],
+ "ND" :
+ [
+ {"providerName" : "Basin Electric Power Cooperative"},
+ {"providerName" : "Central Power Electric Cooperative"},
+ {"providerName" : "Montana Dakota Utilities (MDU)"},
+ {"providerName" : "Minnkota Power Cooperative"},
+ {"providerName" : "Northern States Power Company"},
+ {"providerName" : "Otter Tail Power Company"},
+ {"providerName" : "Upper Missouri Power Cooperative"},
+ {"providerName" : "Xcel Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "OH" :
+ [
+ {"providerName" : "American Electric Power"},
+ {"providerName" : "Cinergy Corporation"},
+ {"providerName" : "Cleveland Electric Illuminating Company"},
+ {"providerName" : "Consolidated Electric Cooperative"},
+ {"providerName" : "Dayton Power & Light"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Duke Energy"},
+ {"providerName" : "FirstEnergy"},
+ {"providerName" : "Ohio Edison"},
+ {"providerName" : "South Central Power Company"},
+ {"providerName" : "Toledo Edison"},
+ {"providerName" : "Other"}
+
+ ],
+ "OK" :
+ [
+ {"providerName" : "East Central Electric Cooperative"},
+ {"providerName" : "Oklahoma Gas & Electric"},
+ {"providerName" : "Public Service Company of Oklahoma"},
+ {"providerName" : "Western Farmers Electric Cooperative"},
+ {"providerName" : "Other"}
+
+ ],
+ "OR" :
+ [
+ {"providerName" : "Columbia River Public Utility District"},
+ {"providerName" : "Eugene Water & Electric Board (EWEB)"},
+ {"providerName" : "IDACORP (Idaho Power)"},
+ {"providerName" : "PacifiCorp (Pacific Power)"},
+ {"providerName" : "Portland General Electric"},
+ {"providerName" : "West Oregon Electric Cooperative"},
+ {"providerName" : "Other"}
+
+ ],
+ "PA" :
+ [
+ {"providerName" : "Adams Electric Cooperative"},
+ {"providerName" : "Allegheny Electric Cooperative"},
+ {"providerName" : "Bedford Rural Electric Cooperative"},
+ {"providerName" : "Borough of Ephrata Electric Division"},
+ {"providerName" : "Borough of Hatfield Electric Utility"},
+ {"providerName" : "Borough of Kutztown Electric Department"},
+ {"providerName" : "Borough of Quakertown Electric Department"},
+ {"providerName" : "Borough of Schuylkill Haven Utilities Department"},
+ {"providerName" : "Central Electric Cooperative"},
+ {"providerName" : "Citizen's Electric Company"},
+ {"providerName" : "Claverack Rural Electric Cooperative"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "Duquesne Light"},
+ {"providerName" : "FirstEnergy (Met-Ed, Penelec, Penn Power, West Penn Power)"},
+ {"providerName" : "Lansdale Electric"},
+ {"providerName" : "New Enterprise Rural Electric Cooperative"},
+ {"providerName" : "Northeast Utilities"},
+ {"providerName" : "Northwestern Rural Electric Cooperative"},
+ {"providerName" : "PECO, a subsidiary of Exelon"},
+ {"providerName" : "Perkasie Borough Electric Department"},
+ {"providerName" : "Pike County Light & Power"},
+ {"providerName" : "PPL Electric Utilities"},
+ {"providerName" : "REA Energy Cooperative"},
+ {"providerName" : "Rural Valley Electric Co."},
+ {"providerName" : "Somerset Rural Electric Cooperative"},
+ {"providerName" : "Sullivan County Rural Electric Cooperative"},
+ {"providerName" : "Tri-County Rural Electric Cooperative"},
+ {"providerName" : "UGI Utilities"},
+ {"providerName" : "United Electric Cooperative"},
+ {"providerName" : "Valley Rural Electric Cooperative"},
+ {"providerName" : "Warren Electric Cooperative"},
+ {"providerName" : "Wellsboro Electric Company"},
+ {"providerName" : "Other"}
+
+ ],
+ "RI" :
+ [
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "National Grid (Narragansett Electric)"},
+ {"providerName" : "Northeast Utilities"},
+ {"providerName" : "Pascoag Utility District"},
+ {"providerName" : "Other"}
+
+ ],
+ "SC" :
+ [
+ {"providerName" : "Aiken Electric Co-Op"},
+ {"providerName" : "Central Electric Power Cooperative, Inc."},
+ {"providerName" : "Duke Energy"},
+ {"providerName" : "Progress Energy Carolinas"},
+ {"providerName" : "Santee Cooper"},
+ {"providerName" : "South Carolina Electric & Gas Company"},
+ {"providerName" : "Tri-County Electric Co-Op"},
+ {"providerName" : "Other"}
+
+ ],
+ "SD" :
+ [
+ {"providerName" : "Black Hills Power"},
+ {"providerName" : "East River Electric Cooperative"},
+ {"providerName" : "MidAmerican Energy Company"},
+ {"providerName" : "Montana-Dakota Utilities (MDU)"},
+ {"providerName" : "Northern States Power Company"},
+ {"providerName" : "Northwestern Energy"},
+ {"providerName" : "Otter Tail Power Company"},
+ {"providerName" : "Rushmore Eletric Cooperative"},
+ {"providerName" : "Xcel Energy"},
+ {"providerName" : "Other"}
+
+ ],
+ "TN" :
+ [
+ {"providerName" : "Citizens Utilities Board"},
+ {"providerName" : "Electric Power Board"},
+ {"providerName" : "Kingsport Power (Appalachian Power)"},
+ {"providerName" : "Knoxville Utilities Board"},
+ {"providerName" : "Lenoir City Utilities Board"},
+ {"providerName" : "Memphis Light, Gas and Water"},
+ {"providerName" : "Nashville Electric Service"},
+ {"providerName" : "Tennessee Valley Authority"},
+ {"providerName" : "Other"}
+ ],
+ "TX" :
+ [
+
+ {"providerName" : "American Electric Power"},
+ {"providerName" : "Amigo Energy"},
+ {"providerName" : "Austin Energy"},
+ {"providerName" : "Bartlett Electric Cooperative"},
+ {"providerName" : "Brazos Electric Power Cooperative"},
+ {"providerName" : "CenterPoint Energy"},
+ {"providerName" : "City of Bryan"},
+ {"providerName" : "City of Greenville"},
+ {"providerName" : "Comanche Electric Cooperative"},
+ {"providerName" : "CoServ Electric"},
+ {"providerName" : "Cosery Electric"},
+ {"providerName" : "CPS Energy"},
+ {"providerName" : "Denton Municipal Electric"},
+ {"providerName" : "Direct Energy"},
+ {"providerName" : "dPi Energy"},
+ {"providerName" : "El Paso Electric"},
+ {"providerName" : "Electric Database Publishing"},
+ {"providerName" : "Entergy"},
+ {"providerName" : "Entrust Energy"},
+ {"providerName" : "Fort Belknap Electric Cooperative"},
+ {"providerName" : "Garland Power & Light"},
+ {"providerName" : "GDF SUEZ Energy Resources"},
+ {"providerName" : "Golden Spread Electric Cooperative"},
+ {"providerName" : "Hudson Energy"},
+ {"providerName" : "Hamilton County Electric Cooperative"},
+ {"providerName" : "Heart of Texas Electric Cooperative"},
+ {"providerName" : "HILCO Electric Cooperative"},
+ {"providerName" : "J-A-C Electric Cooperative"},
+ {"providerName" : "Lower Colorado River Authority"},
+ {"providerName" : "Luminant"},
+ {"providerName" : "MidSouth Synergy"},
+ {"providerName" : "Navarro County Electric Cooperative"},
+ {"providerName" : "Navasota Valley Electric Cooperative"},
+ {"providerName" : "Oncor Electric Delivery (Formerly TXU)"},
+ {"providerName" : "Pedernales Electric Cooperative"},
+ {"providerName" : "PenTex Energy"},
+ {"providerName" : "Reliant Energy"},
+ {"providerName" : "South Plains Electric Cooperative"},
+ {"providerName" : "Southwestern Public Service Company, a subsidiary of Xcel Energy"},
+ {"providerName" : "Texas Electric Service Company"},
+ {"providerName" : "Texas New Mexico Power"},
+ {"providerName" : "Tara Energy"},
+ {"providerName" : "Tri-County Electric Cooperative"},
+ {"providerName" : "TXU Energy"},
+ {"providerName" : "United Cooperative Services"},
+ {"providerName" : "Wise Electric Cooperative"},
+ {"providerName" : "Other"}
+ ],
+ "UT" :
+ [
+ {"providerName" : "Intermountain Power Agency (IPA)"},
+ {"providerName" : "PacifiCorp (Rocky Mountain Power)"},
+ {"providerName" : "Other"}
+
+ ],
+ "VT" :
+ [
+ {"providerName" : "Burlington Electric Department"},
+ {"providerName" : "Central Vermont Public Service"},
+ {"providerName" : "Gaz Métro (Green Mountain Power)"},
+ {"providerName" : "Vermont Electric Cooperative"},
+ {"providerName" : "Washington Electric Cooperative"},
+ {"providerName" : "Other"}
+
+ ],
+ "VA" :
+ [
+ {"providerName" : "A&N Electric Cooperative"},
+ {"providerName" : "Appalachian Power"},
+ {"providerName" : "BARC Electric Cooperative"},
+ {"providerName" : "Community Electric Cooperative"},
+ {"providerName" : "Craig-Botetourt Electric Cooperative"},
+ {"providerName" : "Danville Utilities"},
+ {"providerName" : "Dominion Virginia Power"},
+ {"providerName" : "Mecklenberg Electric Cooperative"},
+ {"providerName" : "Northern Neck Electric Cooperative"},
+ {"providerName" : "Northern Virginia Electric Cooperative"},
+ {"providerName" : "Old Dominion Electric Cooperative"},
+ {"providerName" : "Prince George Electric Cooperative"},
+ {"providerName" : "Rapahannock Electric Cooperative"},
+ {"providerName" : "Shenandoah Valley Electric Cooperative"},
+ {"providerName" : "Southside Electric Cooperative"},
+ {"providerName" : "Other"}
+
+ ],
+ "WA" :
+ [
+ {"providerName" : "Avista Utilities"},
+ {"providerName" : "Benton County Public Utility District"},
+ {"providerName" : "Chelan County Public Utility District"},
+ {"providerName" : "Clark Public Utilities"},
+ {"providerName" : "Douglas County Public Utility District"},
+ {"providerName" : "Franklin County Public Utility District"},
+ {"providerName" : "Grant County Public Utility District"},
+ {"providerName" : "Klickitat Public Utility District"},
+ {"providerName" : "Mason County Public Utility District 3"},
+ {"providerName" : "Orcas Power and Light Coop (OPALCO)"},
+ {"providerName" : "PacifiCorp (Pacific Power)"},
+ {"providerName" : "Peninsula Light Co"},
+ {"providerName" : "Pend Oreille County Public Utility District"},
+ {"providerName" : "Puget Sound Energy"},
+ {"providerName" : "Seattle City Light"},
+ {"providerName" : "Snohomish County Public Utility District"},
+ {"providerName" : "Tacoma Power"},
+ {"providerName" : "Tanner Electric Coop"},
+ {"providerName" : "Other"}
+
+ ],
+ "WV" :
+ [
+ {"providerName" : "Allegheny Electric Cooperative (Allegheny Power)"},
+ {"providerName" : "Appalachian Power"},
+ {"providerName" : "FirstEnergy (Mon Power, Potomac Edison)"},
+ {"providerName" : "Wheeling Electric Power (AEP Ohio)"},
+ {"providerName" : "Other"}
+
+ ],
+ "WI" :
+ [
+ {"providerName" : "Dairyland Power Cooperative"},
+ {"providerName" : "Madison Gas and Electric"},
+ {"providerName" : "Northern States Power Company-Wisconsin"},
+ {"providerName" : "We Energies"},
+ {"providerName" : "Wisconsin Power and Light Company"},
+ {"providerName" : "Wisconsin Public Service Corporation"},
+ {"providerName" : "Xcel Energy"},
+ {"providerName" : "Other"}
+ ],
+ "WY" :
+ [
+ {"providerName" : "Cheyenne Light, Fuel & Power"},
+ {"providerName" : "Lower Valley Energy"},
+ {"providerName" : "PacifiCorp"},
+ {"providerName" : "Other"}
+ ]
+
+ };
+
+ var updateUtilityProviderBox = function(elec) {
+ var listItems= "";
+ for (var i = 0; i < providerList[elec].length; i++){
+ listItems+= "<option value='" + providerList[elec][i].providerName + "'>" + providerList[elec][i].providerName + "</option>";
+ }
+ $("select#provider-select").html(listItems);
+
+ }
+ updateUtilityProviderBox(states);
+ $('#provider-select option[value=Other]').attr('selected','selected');
+ }
+ }
+ }
+ });
+ }
+ }
+
+ var zip_inclick = false;
+ var button_click = false;
+ //zip validation
+
+ $("#zip").on('keyup change', function (e) {
+ button_click = false;
+ zipValidate(button_click);
+ });
+
+ $("#token").change(function () {
+ if (rates_redirect) {
+ var zipcode = getUrlParameter('zip_code');
+ if (!isNaN(zipcode) && zipcode !== '') {
+ button_click = false;
+ $("#zip").val(zipcode);
+ zipValidate(button_click);
+ }
+
+ }
+ });
+
+ $(document).ready(function () {
+ if (rates_redirect) {
+ $("#btn-zip").unbind('click');
+ $('#btn-zip').click(function () {
+ button_click = true;
+ zipValidationSuccess(button_click);
+ });
+ }
+ });
+</script>
+
+
+
+
+
+	<script>
+
+	(function(){ 
+ 
+   var nua = navigator.userAgent
+   var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
+   if (isAndroid) {
+ $('select.form-control').removeClass('form-control').css({'width': '100%', 'height': '50px'})
+   }
+ 
+ 
+ var doc = document.documentElement;
+ doc.setAttribute('data-useragent', navigator.userAgent);
+
+ 
+ function isStrictMode(){
+ return !this;
+ } 
+
+ function isStrictMode(){   
+ "use strict";
+ return !this;
+ } 
+ 
+ function mincont() {
+ var hd = $('header').outerHeight(),
+ fd = $('footer').outerHeight(),
+ xd,
+     newWindowWidth = $(window).width();
+ 
+ if (newWindowWidth < 570) {
+ xd = parseInt(window.innerHeight - hd);
+ $('main').attr('style','min-height:'+xd+'px;');
+ }else { xd = parseInt(window.innerHeight - (hd + fd));$('main').attr('style','min-height:'+xd+'px;');}
+ 
+ 
+ 
+ 
+ }
+ 
+ $(document).ready(function() {
+ mincont();	
+ 
+ 
+ var s = 1;
+ $('form fieldset').each(function () {
+ $(this).attr('data-step', s++);
+ });
+ 
+ var totalStep = $("fieldset").length;
+ var currentStep = 1;
+
+ $("#provider-select").on('change',function(){
+ $(this).closest("fieldset").find(".btn-next").trigger("click");
+ });
+
+
+ $(".radio-next input[type=radio],.btn-next").bind("click",function () {
+ var parent_fieldset = $(this).parents('fieldset').last();
+ var next_step = true;
+
+ var result = $("#msform").valid();
+ if (!result) {
+ next_step = false;
+ }
+
+ if (next_step) {
+ if(currentStep < totalStep) {
+ parent_fieldset.fadeOut(function () {
+ $(this).next().fadeIn(function () {
+ $(this).find('input:not([name=address]),select').first().focus();
+ });
+ stepanimate();
+ });
+ }
+
+ }
+
+ });
+
+ 
+
+ /* progress */
+ function stepanimate(){
+ var scrollTop = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop)
+
+ if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {           
+ window.scrollTo(0,0) 
+ }else{
+ $('html,body').animate({scrollTop: 0}, 500, function(){
+ $('html,body').clearQueue();
+ });
+ }
+ 
+ 
+ currentStep = $('form fieldset:visible').data('step'),
+ currentPercent = parseInt((currentStep / totalStep) * 98),
+ percent = 100 - currentPercent,
+ prevStep = $('form fieldset:visible').data('step')-1,
+ prevPercent = parseInt((prevStep / totalStep) * 98);
+ 
+ if (currentStep > 1){
+ if (currentPercent > 98){
+ $(".percent span").html('100');
+ $('.progress-bar_progress').css({ strokeDashoffset: 0});
+ }else{
+ $('.progress-bar_progress').css({ strokeDashoffset: percent});
+ $('.percent span').html(currentPercent);
+ }
+ 
+ 
+ $({ Counter: prevPercent }).animate({ Counter: $('.percent span').text()},
+  {
+   duration: 1500,
+   step: function() {$('.percent span').text(Math.ceil(this.Counter)); }
+ });
+
+ $(".complete").html('completed');
+ $(".percent i").show();
+ }
+
+ if($('#phoneContainer').is(':visible')){ $('.trusted').hide(); }
+ }
+ 
+ 
+ 
+
+
+ $('#zip-container').on('step-redirect', function () {
+ setTimeout(function () {
+ $("#progress").show();
+ stepanimate();
+ }, 500);
+
+ });
+ 
+ 
+ 
+ 
+ $('form input').on('keypress', function(e) {
+ var keyCode = e.keyCode || e.which;
+ if (keyCode === 13) {
+ var next_btn = $(this).closest("fieldset").find(".btn-next");
+ if(!next_btn.prop('disabled'))
+ next_btn.trigger("click");
+ e.preventDefault();
+ return false;
+
+ }
+ });
+
+ 
+ });	
+ 
+ $(window).resize(mincont);		
+ 
+	})();
+
+ </script>
+
+ <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyChtP__02wqae2GK6JEdDkofbmpNlPAHyo"></script>
+ <script src="js/jquery.geocomplete.min.js"></script>
+
+
+ <script>
+ var invalid_city_state = false;
+ if(typeof window.google !== 'undefined' && typeof window.google.maps !== 'undefined') {
+ $("#address").geocomplete({
+ formId: "#msform",
+ componentRestrictions: {
+ country: ['us']
+ },
+ types: ['address'],
+ fields: ['address_components'],
+ onChange: function (name, result) {
+ var searchAddressComponents = result.address_components;
+ $.each(searchAddressComponents, function () {
+ if (this.types[0] === "locality") {
+ $(".city_span, #fcity").text(this.short_name);
+ if(!$("#city").val()) {
+ invalid_city_state = true;
+ $("#city").val(this.short_name);
+ }
+ }
+ if (this.types[0] === "administrative_area_level_1") {
+ $(".state_span, #fstate").text(this.short_name);
+ if(!$("#state").val()) {
+ invalid_city_state = true;
+ $("#state").val(this.short_name);
+ }
+ }
+ if (this.types[0] === "postal_code") {
+ $(".zip_span").text(this.short_name);
+ if(invalid_city_state) {
+ $("input[name='zip_code']").val(this.short_name);
+ }
+ }
+ });
+ $('#add-change').slideDown();
+ $('#adddetails-change').hide();
+ $("input[name='address']").valid();
+
+ //Autocomplete if house number is invalid
+ var originalAddress = $("input[name='address']").val();
+ setTimeout(function () {
+ function hasNumbers(t)
+ {
+ var regex = /\d/g;
+ return regex.test(t);
+ }
+ var updatedAddress = $("input[name='address']").val();
+ if(!hasNumbers(updatedAddress) && hasNumbers(originalAddress)) {
+ var streetNumber = originalAddress.replace( /^\D+/g, '');
+ $("input[name='address']").val(streetNumber + ' ' + updatedAddress);
+ }
+
+ $("input[name='address']").valid();
+ }, 100);
+ }
+ });
+ }
+
+ $(".change-address").bind("click", function () {
+ $(this).parents('.address_change').fadeOut(function () {
+ $(this).next().fadeIn(
+ function () {
+ $(this).find('input,select').first().focus();
+ });
+ });
+ return false;
+ });
+ </script>
+ <!-- mcafee -->
+<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+
+
+
+<script type="text/javascript">
+ (function () {
+ var tagjs = document.createElement("script");
+ var s = document.getElementsByTagName("script")[0];
+ tagjs.async = true;
+ tagjs.src = "//s.btstatic.com/tag.js#site=sPLaZHQ&referrer=" + encodeURIComponent(document.location.href) + "";
+ s.parentNode.insertBefore(tagjs, s);
+ }());
+</script>
+<noscript>
+ <iframe src="//s.thebrighttag.com/iframe?c=sPLaZHQ" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+<!-- Traverse Retargeting script -->
+<script>
+
+ var traverse_script_imported = false;
+ var traverse_data_sent = false;
+ var traverse_data_request_timeout_limit = 5000;
+ var traverse_data_request_time_interval = 300;
+ var traverse_data_request_time_spent = 0;
+ var sendTraverseDataInterval = null;
+
+ function loadTraverseRetargeting() {
+ var element = document.getElementsByTagName('head')[0];
+ var script = document.createElement('script');
+ script.type = 'text/javascript';
+ script.addEventListener('load', function (ev) {
+ TraverseRetargeting.init({
+ advertiserId: "eb644c3c-4265-4aaa-a16c-0bf5362695c0"
+ });
+
+ sendTraverseDataInterval = setInterval(sendDataToTraverse, traverse_data_request_time_interval);
+
+ });
+ script.src = 'https://static.traversedlp.com/v1/retargeting.js';
+ element.appendChild(script);
+ }
+
+
+ function sendDataToTraverse() {
+ traverse_data_request_time_spent += traverse_data_request_time_interval;
+ if(traverse_data_sent) {
+ return false;
+ }
+ if(typeof window.fingerprint === 'undefined' && (traverse_data_request_timeout_limit > traverse_data_request_time_spent)) {
+ return false;
+ }
+ if(typeof fingerprint === undefined) {
+ var fingerprint = '';
+ }
+
+ TraverseRetargeting.include({
+ campaignId: "4b295af8-3946-4a6e-9b0d-f5ace7379d43",
+ advertiserProperties: {
+ pageUrl: window.location.href,
+ token: $("#token").val(),
+ vertical: 'Solar',
+ fingerprint: window.fingerprint
+ }
+ });
+ clearInterval(sendTraverseDataInterval);
+ console.log("Traverse Retargeting Loaded");
+ }
+
+ $(document).ready(function(){
+ $("#token").change(function(){
+ $.getJSON("https://marble.logiq.com/api/ip-info" + "?token=" + $("#token").val(), function(result) {
+ if(result && result.region_code != 'CA') {
+
+ //loadTraverseRetargeting();
+ //console.log(result);
+ }
+ if(result && result.region_name && result.city && $("#loc_city").length) {
+ $("#loc_city").text(result.city);
+ $("#loc_state").text(result.region_name);
+ }
+ }).fail(function(jqxhr, textStatus, error ) {
+ var err = textStatus + ", " + error;
+ Rollbar.critical("Error getting the ip data, error: " + err);
+ });;
+ });
+ });
+</script>
+<!-- End Traverse script -->
+
+<!-- Begin BlueKai Tag -->
+<script type="text/javascript">
+ window.bk_async = function() {
+// Start code updates
+// All the key/values to be passed are identified in the Taxonomy sheet
+// bk_addPageCtx("<<SOMEKEY>>", "<<SOMEVALUE>>");
+// End code updates
+ bk_allow_multiple_calls=true;
+ bk_use_multiple_iframes=true;
+ BKTAG.doTag(87868, 10); };
+ (function() {
+ var scripts = document.getElementsByTagName('script')[0];
+ var s = document.createElement('script');
+ s.async = true;
+ s.src = "//tags.bkrtx.com/js/bk-coretag.js";
+ scripts.parentNode.insertBefore(s, scripts);
+ }());
+</script>
+<!-- End BlueKai Tag -->
+<!-- gemini acct2 -->
+<script type="application/javascript">(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'36521'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
+<!-- end gemini acct2 -->
+
+<script>
+ //cookie functions
+ function setCookie(name, value, days) {
+ var expires = "";
+ if (days) {
+ var date = new Date();
+ date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+ expires = "; expires=" + date.toUTCString();
+ }
+ document.cookie = name + "=" + (value || "") + expires + "; path=/";
+ }
+
+ function getCookie(name) {
+ var nameEQ = name + "=";
+ var ca = document.cookie.split(';');
+ for (var i = 0; i < ca.length; i++) {
+ var c = ca[i];
+ while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+ if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+ }
+ return null;
+ }
+
+ function eraseCookie(name) {
+ document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+ }
+ //botd function
+ function loadBotd() {
+ // Initialize an agent at application startup.
+ const botdPromise = import(
+ "https://openfpcdn.io/botd/v0.1"
+ ).then( Botd =>
+ Botd.load({ publicKey: "ootuDjRtQJztv86CMSKROofP" })
+ );
+ // Get the bot detection result when you need it.
+ // Result will contain the requestId property,
+ // that you can securely verify on the server.
+ botdPromise
+ .then(botd => botd.detect())
+ .then(result => {
+ console.log(result.requestId);
+ botDRequestId = result.requestId
+ visitor_request_sent = true;
+ $.ajax({
+ type: "POST",
+ data: {
+ token: $("#token").val(),
+ botd_request_id: botDRequestId,
+ original_url: window.location.href,
+ },
+ url: "https://marble.logiq.com/botd.php",
+ }).done(function (result) {
+ /*if (!result.success) {
+ if (typeof Rollbar !== 'undefined') Rollbar.error("Botd request failed");
+ }*/
+ }).fail(function () {
+ if (typeof Rollbar !== 'undefined') Rollbar.error("Botd request failed");
+ });
+ })
+ .catch(error => {
+ console.error(error);
+ Rollbar.error(error);
+ })
+ }
+</script>
+
+<script>
+
+ var is_bot_visit = false;
+
+ //checks if is visit from google bot or pingdom
+ function checkIsBotVisit() {
+ var userAgent = navigator.userAgent.toLowerCase();
+ if (typeof userAgent == 'string') {
+ if (userAgent.includes('pingdom') || userAgent.includes('googlebot')) {
+ is_bot_visit = true;
+ }
+ }
+ }
+
+ checkIsBotVisit();
+
+ $(document).ready(function () {
+ $.ajax({
+ type: "GET",
+ url: "https://marble.logiq.com/visitor-count.php?vertical=solar",
+ success: function (result) {
+ if (!result.success) {
+ if (typeof Rollbar !== 'undefined') Rollbar.error("Visitor count request failed");
+ }
+ },
+ error: function () {
+ if (typeof Rollbar !== 'undefined') Rollbar.error("Visitor count request failed");
+ }
+ });
+ });
+
+</script>
+ <script>
+ var visitor_request_sent = false;
+
+ function sendVisitorRequest() {
+ $.ajax({
+ type: "POST",
+ data: {
+ token: token,
+ fingerprint: fingerprint,
+ original_url: window.location.href,
+ },
+ url: "https://marble.logiq.com/visit.php",
+ }).done(function (result) {
+ loadBotd();
+ visitor_request_sent = true;
+ if (!result.success) {
+ if (typeof Rollbar !== 'undefined') Rollbar.error("Visitor request failed");
+ }
+ }).fail(function () {
+ if (typeof Rollbar !== 'undefined') Rollbar.error("Visitor request failed");
+ });
+ ;
+ }
+
+ var fingerprint = '';
+ window.fingerprint = fingerprint;
+ var token = "";
+
+
+ if ($("#msform").length) {
+ $("#msform").append('<input type="hidden" name="fingerprint" id="fingerprint" value="' + fingerprint + '">');
+ }
+
+  $("#token").change(function () {
+ token = $("#token").val();
+ sendVisitorRequest();
+ });
+ 
+ setTimeout(function () {
+ //for rates page
+ if (!token && !visitor_request_sent) {
+ sendVisitorRequest();
+ }
+ }, 3000);
+
+ </script>
+
+
+
+
+<script id="LeadiDscript" type="text/javascript">
+ // <!--
+ (function() {
+ var s = document.createElement('script');
+ s.id = 'LeadiDscript_campaign';
+ s.type = 'text/javascript';
+ s.async = true;
+ s.src = '//create.lidstatic.com/campaign/e124f912-fcb7-8089-d25d-5aa4d5ecf847.js?snippet_version=2';
+ var LeadiDscript = document.getElementById('LeadiDscript');
+ LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+ })();
+ // -->
+</script>
+<noscript><img src='//create.leadid.com/noscript.gif?lac=436950f0-4258-12f0-957b-9128a283bae5&lck=e124f912-fcb7-8089-d25d-5aa4d5ecf847&snippet_version=2' /></noscript>
+
+<!-- trustedform -->
+<script type="text/javascript">
+ (function() {
+ var field = 'xxTrustedFormCertUrl';
+ var provideReferrer = false;
+ var invertFieldSensitivity = false;
+ var tf = document.createElement('script');
+ tf.type = 'text/javascript'; tf.async = true;
+ tf.src = 'http' + ('https:' == document.location.protocol ? 's' : '') +
+ '://api.trustedform.com/trustedform.js?provide_referrer=' + escape(provideReferrer) + '&field=' + escape(field) + '&l='+new Date().getTime()+Math.random() + '&invert_field_sensitivity=' + invertFieldSensitivity;
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tf, s); }
+ )();
+</script>
+<noscript>
+ <img src="https://api.trustedform.com/ns.gif" />
+</noscript>
+
+ <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+
+
+
+ </body>
+</html>
